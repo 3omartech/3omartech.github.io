@@ -1,0 +1,12 @@
+Name: LCD
+Package: com.3omartech.lcd
+Version: 1.0
+Architecture: iphoneos-arm
+Description: LCD Clock Widget For LS & HS
+Author: 3omartech 
+Section: Widget 
+Icon: file:///var/mobile/Library/iWidgets/LCD/Private/icon@2x.png
+Maintainer: 3omartech 
+
+
+
