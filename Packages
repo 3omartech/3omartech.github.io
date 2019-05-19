@@ -1,7 +1,7 @@
 Package: com.3omartech.hope
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.com>
+Maintainer: 3omartech <3omartech@mail.ru>
 Filename: /Hope.deb
 Size: 2636082
 MD5sum: 846c7e9b90c7ed776593f5ff672b223e
@@ -15,7 +15,7 @@ Name: Hope
 Package: com.3omartech.new3vo
 Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.com>
+Maintainer: 3omartech <3omartech@mail.ru>
 Filename: /New3VO.deb
 Size: 4824318
 MD5sum: 536e3ed9b006b3107828627cfdaf1e3c
@@ -29,9 +29,7 @@ Name: New3VO
 Package: com.3omartech.iswidget
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.com>
-Depends: Xen HTML
-Depiction: https://3omar-tech.blogspot.com/2019/05/ayah-widget.html 
+Maintainer: 3omartech <3omartech@mail.ru> 
 Filename: /ISwidget.deb
 Size: 935528 
 MD5sum: a2842fdd3a58121f72d483e87ee7d266
