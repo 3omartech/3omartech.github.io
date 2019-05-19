@@ -27,11 +27,10 @@ Author: 3omartech
 Name: New3VO
 
 Package: com.3omartech.ayah1
-Version: 1.0.0
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: 3omartech <3omartech@mail.com>
-Filename: /AYAH.deb
-Depiction: https://3omar-tech.blogspot.com/2019/05/ayah-widget.html 
+Filename: /AYAH.deb 
 Size: 935608 
 MD5sum: e6abece5f7897a88fe9736588ed2f8f0
 SHA1: 1adc3743ff7edf8dca47030904e6a4ab549f8905
