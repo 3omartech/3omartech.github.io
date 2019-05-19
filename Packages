@@ -27,20 +27,3 @@ Author: 3omartech
 Name: New3VO
 
 
-
-Package: com.3omartech.iswidget
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru> 
-Filename: /ISWidget.deb
-Size: 935528 
-MD5sum: 82f9c0d217715023c77291a4a09c18af
-SHA1: 7dfabdcd0da1a5a5620a2e2dcae34a825c810826
-SHA256: c1f80e0bcd9e5095933eb9133fadd7652e72039b236709b8a12082a222c05a5e
-Section: Widget
-Description: Animated wallpaper Widget
-Author: 3omartech
-Name: ISWidget
-
-
-
