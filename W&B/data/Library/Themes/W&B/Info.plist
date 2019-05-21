@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BadgeSettings</key>
+	<dict>
+		<key>TextColor</key>
+		<string>#0f52ba</string>
+	</dict>
+	<key>CalendarIconDateSettings</key>
+	<dict>
+		<key>FontSize</key>
+		<integer>28</integer>
+		<key>FontWeight</key>
+		<string>Bold</string>
+		<key>ShadowBlurRadius</key>
+		<integer>0</integer>
+		<key>ShadowColor</key>
+		<string>#cecece</string>
+		<key>ShadowXoffset</key>
+		<real>0.0</real>
+		<key>ShadowYoffset</key>
+		<real>0.0</real>
+		<key>TextColor</key>
+		<string>#0f52ba</string>
+		<key>TextXoffset</key>
+		<real>1</real>
+		<key>TextYoffset</key>
+		<real>1</real>
+	</dict>
+	<key>CalendarIconDaySettings</key>
+	<dict>
+		<key>FontSize</key>
+		<integer>0</integer>
+		<key>ShadowBlurRadius</key>
+		<integer>2</integer>
+		<key>ShadowColor</key>
+		<string>#a72424</string>
+		<key>ShadowXoffset</key>
+		<real>0.0</real>
+		<key>ShadowYoffset</key>
+		<real>1</real>
+		<key>TextColor</key>
+		<string>#0f52ba</string>
+	</dict>
+	<key>FolderGridImageAlpha</key>
+	<integer>0</integer>
+	<key>IB-MaskIcons</key>
+	<false/>
+	<key>IconLabelSettings</key>
+	<dict>
+		<key>HeightChange</key>
+		<real>0.0</real>
+		<key>TextColor</key>
+		<string>#0f52ba</string>
+		<key>WidthChange</key>
+		<real>3</real>
+	</dict>
+	<key>ThemeType</key>
+	<string>Icons</string>
+</dict>
+</plist>
