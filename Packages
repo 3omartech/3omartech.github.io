@@ -40,19 +40,3 @@ Description: islamic widget with clock and date
 Author: 3omartech
 Name: ISWidget
 
-
-Package: com.3omartech.kaaba
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 3omarTech
-Installed-Size: 
-Depends: 
-Filename: /KA3BA.deb
-Size: 222266
-MD5sum: 75f1b5d360ad9b20b4c5090839dd3e83
-SHA1: bc2d6bf9abb65a73986b2dea67f2546d0d50481f
-SHA256: d2fa237df93d83816cd3b09bbc65f0203e0ef0bd86a971b11619e50cbc61d16b
-Section: Wallpaper 
-Description:  خلفية  مع ويدجت لشاشة القفل . المسجد الحرام
-Author: 3omarTech
-Name: KAABA
