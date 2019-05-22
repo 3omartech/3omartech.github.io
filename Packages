@@ -35,9 +35,9 @@ Installed-Size: 870538
 Homepage:https://3omar-tech.blogspot.com/2019/05/screenshot-for-alkaaba-widget.html 
 Filename: /KaabaWidget.deb
 Size: 870538
-MD5sum: c300541d91c20d72a8cf88266d320f70
-SHA1: b119e86531133d8bbaff962f91c240bc0159542b
-SHA256: f520d96685ca685f9ebe6b175857e827842324b071859189b58277bc780cd3f9
+MD5sum: efc085b15bc573c6fda311b647de6f62
+SHA1: e00cb1f08c9b1bb44a08fbafd30d04fdf817d3e7
+SHA256: d8e6c6246d3cf43b7b62048b41081adc3bdac539cc97742ccc430e1db8acbe7c
 Section: Widgets
 Description: Kaaba Wall With Golden Clock
 Author: 3omartech 
