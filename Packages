@@ -42,18 +42,5 @@ Description: Kaaba Wall With Golden Clock
 Author: 3omartech 
 Name: KaabaWidget
 
-Package: com.3omartech.silvernotch
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech 
-Installed-Size: 329376
-Homepage: https://3omar-tech.blogspot.com/2019/05/silver-animated-notch-fo-iphone-x-xs.html
-Filename: /SilverNotch.deb
-MD5sum: 2c560b322bc08d8233ed36c60c29f171
-SHA1: 0dac7dc61f95f8d2bf40547f1f4bcdac6c1ab38b 
-SHA256: 32fee93f4ff5f21c202b995d75647e9c09690570764e9e930181508b929ed05e
-Section: Widgets
-Description: Silver notch for iPhone x/xs
-Author: 3omartech 
-Name: SilverNotch
+
 
