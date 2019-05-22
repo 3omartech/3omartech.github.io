@@ -33,9 +33,9 @@ Maintainer: 3omartech <3omartech@mail.ru>
 Filename: /AlKaaba.deb
 Homepage: https://3omar-tech.blogspot.com/2019/05/screenshot-for-alkaaba-widget.html 
 Size: 899798
-MD5sum: da20f6edeb218d9a95e28ff9da15ee48
-SHA1: 4d3a079ae35e20d0f142e219b2c576712a08a79b
-SHA256: a41f39c68e48f4a01e062a364ed5fa0cb4fe4459f2f6aa7c05450c7b26d691f1
+MD5sum: 0bc6ed74955181ffcbfe9c7d05677c3e
+SHA1: 6f3c8dd6330203c2357e59aed68214d809c39c8d
+SHA256: 9cb3c2b0065d7802e00dcf22659dca95c5850e79e4bed7c8077d324570b70fb8
 Section: Widget
 Description: Kaaba Wall Whit Golden Clock
 Author: 3omartech
