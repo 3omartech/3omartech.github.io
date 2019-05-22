@@ -26,7 +26,21 @@ Description: islamic widget with clock and date
 Author: 3omartech
 Name: ISWidget
 
-
+Package: com.3omartech.kaabawidget
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech 
+Installed-Size: 870538 
+Homepage:https://3omar-tech.blogspot.com/2019/05/screenshot-for-alkaaba-widget.html 
+Filename: /KaabaWidget.deb
+Size: 870538
+MD5sum: 73f0205db560ebd9b2f267716bf11cb9
+SHA1: 447aef5dbe780df428cebc5a733190df0f780014
+SHA256: 95f3e28a4b50b1b51efca46c888c13b80afadb76c8f7b9ce70104b0332543729
+Section: Widgets
+Description: Kaaba Wall With Golden Clock
+Author: 3omartech 
+Name: KaabaWidget
 
 
 
