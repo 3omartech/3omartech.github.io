@@ -21,10 +21,24 @@ Size: 935528
 MD5sum: b093ed6d7366ebe7327d6261e73954ef
 SHA1: 2fcf2ac92ebd4b49f591197c88242edf9426e23f
 SHA256: db98f930fe899398705615987f829420f7684426505b61261640dce708ea27b9
-Section: Widget
+Section: Widgets
 Description: islamic widget with clock and date
 Author: 3omartech
 Name: ISWidget
+
+Package: com.3omartech.kaabawidget
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Filename: /KaabaWidget.deb
+Size: 935528 
+MD5sum: c300541d91c20d72a8cf88266d320f70
+SHA1: b119e86531133d8bbaff962f91c240bc0159542b
+SHA256: f520d96685ca685f9ebe6b175857e827842324b071859189b58277bc780cd3f9
+Section: Widgets
+Description: islamic widget with clock and date
+Author: 3omartech
+Name: KaabaWidget
 
 
 
