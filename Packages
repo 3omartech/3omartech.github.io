@@ -21,12 +21,13 @@ Size: 935528
 MD5sum: b093ed6d7366ebe7327d6261e73954ef
 SHA1: 2fcf2ac92ebd4b49f591197c88242edf9426e23f
 SHA256: db98f930fe899398705615987f829420f7684426505b61261640dce708ea27b9
-Section: Widget
+Section: Widgets
 Description: islamic widget with clock and date
 Author: 3omartech
 Name: ISWidget
 
 
+<<<<<<< HEAD
 Package: com.3omartech.kaabawidget
 Version: 1.0
 Architecture: iphoneos-arm
@@ -42,3 +43,4 @@ Section: Widgets
 Description: Kaaba Wall With Golden Clock
 Author: 3omartech 
 Name: KaabaWidget
+
