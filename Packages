@@ -27,21 +27,6 @@ Author: 3omartech
 Name: ISWidget
 
 
-Package: com.3omartech.alkaaba
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Filename: /AlKaaba.deb
-Homepage: https://3omar-tech.blogspot.com/2019/05/screenshot-for-alkaaba-widget.html 
-Size: 899798
-MD5sum: 3c1e909680ca1b9833bc9e6aeb1864ea
-SHA1: 56f8faedcd8c49895e842c422c692199f5cb8315
-SHA256: 0ab0ceb0401881fa5ed8b546395b7d4cf58d528378b3d7088001b8a02d92100f
-Section: Widgets
-Description: Kaaba Wall Whit Golden Clock
-Author: 3omartech
-Name: AlKaaba
-
 
 
 
