@@ -27,6 +27,21 @@ Author: 3omartech
 Name: ISWidget
 
 
+Package: com.3omartech.silvernotch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/05/silver-animated-notch-fo-iphone-x-xs.html
+Size: 329462 
+Filename: /SilverNotch.deb
+Size: 870616
+MD5sum: e51f8f098fa952ff76da3a0a5a694d37
+SHA256: 22afe963b4fd1d201c8aee140039bbe1c05ded50e04102b2ffed8eda5b75dc3a
+Section: Widgets
+Description: Animated Notch Widget For iPhone x xs
+Author: 3omartech
+Name: SilverNotch
+
 Package: com.3omartech.kaabawidget
 Version: 0.0.1
 Architecture: iphoneos-arm
