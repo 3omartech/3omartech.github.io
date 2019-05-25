@@ -56,4 +56,19 @@ Author: 3omartech
 Name: SilverNotch
 
 
+Package: com.3omartech.g00ld1
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/05/g00ld-theme.html
+Filename: /G00LD.deb
+Size: 2466810
+MD5sum: a47b20c6a86f0b9dff7c884586902e01
+SHA256: a57ba643e9d6036e03bc5cf1ecf2ac24797928be859fc8ecfd9f4084245cf32a
+Section: Themes
+Description: This is BLQ Theme In GOLDEN LOOK
+Author: 3omartech
+Name: G00LD
+
+
 

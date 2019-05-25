@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CalendarIconDateSettings</key>
+	<dict>
+		<key>FontName</key>
+		<string>HelveticaNeue-Light</string>
+		<key>FontSize</key>
+		<integer>21</integer>
+		<key>ShadowBlurRadius</key>
+		<real>2</real>
+		<key>ShadowColor</key>
+		<string>rgba(0,0,0,.5)</string>
+		<key>ShadowXoffset</key>
+		<real>0.0</real>
+		<key>ShadowYoffset</key>
+		<real>1</real>
+		<key>StrokeColor</key>
+		<string>#ceb180</string>
+		<key>TextColor</key>
+		<string>#ceb180</string>
+		<key>TextYoffset</key>
+		<integer>0</integer>
+		<key>strokeThickness</key>
+		<integer>0</integer>
+	</dict>
+	<key>CalendarIconDaySettings</key>
+	<dict>
+		<key>FontName</key>
+		<string>HelveticaNeue</string>
+		<key>FontSize</key>
+		<real>8</real>
+		<key>ShadowBlurRadius</key>
+		<real>2</real>
+		<key>ShadowColor</key>
+		<string>rgba(0,0,0,.5)</string>
+		<key>ShadowXoffset</key>
+		<real>0.0</real>
+		<key>ShadowYoffset</key>
+		<real>1</real>
+		<key>TextColor</key>
+		<string>#d3d3d3</string>
+	</dict>
+	<key>PackageName</key>
+	<string>G00LD</string>
+	<key>ThemeType</key>
+	<string>Icons</string>
+</dict>
+</plist>
