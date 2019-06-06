@@ -113,14 +113,14 @@ Author: 3omartech
 Name: MLT0
 
 Package: com.3omartech.silverpack
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: 3omartech <3omartech@mail.ru>
 Homepage:https://3omar-tech.blogspot.com/2019/06/silverpack-widget-and-wallpaper-with.html
 Filename: /SilverPack.deb
 Size: 315582
-MD5sum: 10c3e417695e099de32fbe74c30a1ca8
-SHA256: 8b62968b840490f66e710d5802ab40e1d4ee852ff14347ab75b223542a03ec74
+MD5sum: 3981d93c712c31b9b6c26497153d2787
+SHA256: 179319aebd29c8cb6c9e01c633a3a8cc30868b6b5d8ab725df47a2f31ae8b379
 Section: Widgets
 Description: Wallpaper And Widget with avatar FREE (Widget made by lockplus pro)
 Author: 3omartech
