@@ -112,6 +112,20 @@ Description: Wallpaper And Widget (created by lockplus pro tweak)
 Author: 3omartech
 Name: MLT0
 
+Package: com.3omartech.silverpack
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/06/silverpack-widget-and-wallpaper-with.html
+Filename: /SilverPack.deb
+Size: 315582
+MD5sum: 10c3e417695e099de32fbe74c30a1ca8
+SHA256: 8b62968b840490f66e710d5802ab40e1d4ee852ff14347ab75b223542a03ec74
+Section: Widgets
+Description: Wallpaper And Widget with avatar ‘’ FREE’’ (Widget made by lockplus pro)
+Author: 3omartech
+Name: SilverPack
+
 
 
 
