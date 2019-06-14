@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-16"?>
+
+<html><head>
+
+  <title>CLeanCl0ck</title>
+
+<style>
+
+
+
+    td#Backgrounds
+
+{
+
+	margin-top: 0px;	 
+
+	position: absolute; top: -30px; right: 0px; down: 0px; left: 0px;
+
+}
+
+
+
+SPAN#clock
+
+{
+
+	font-family: Marker Felt;
+
+	font-weight: 100;
+
+	color: transparent; 
+
+	text-shadow: 0px 0px 0px white;
+
+	font-size: 0px;
+
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(transparent), color-stop(0.55, #666));
+
+}
+
+
+
+SPAN#date 
+
+{
+
+	font-family: Marker Felt;
+
+	font-weight: 100;
+
+	color: white; 
+
+	text-shadow: 0px 0px 1px black;
+
+	font-size: 24px;
+
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(transparent), color-stop(0.65, #666));
+
+}
+
+
+
+SPAN#year 
+
+{
+
+	font-family: Marker Felt;
+
+	font-weight: 100;
+
+	color: transparent; 
+
+	text-shadow: 0px 0px 1px black;
+
+	font-size: 65px;
+
+       opacity: 0.3;
+
+	text-transform: Capitalize;  
+
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(transparent), color-stop(0.5, #666));
+
+	-webkit-text-stroke: 1.2px white;
+
+	-webkit-text-fill-color: transparent;
+
+}
+
+
+
+</style>
+
+
+<script type="text/javascript" src="Scripts/Weather.js" style="position:absolute; top:0px; left:0px; width:320px; height:480px; z-index:-99;"></script>
+
+
+<script src="Private/jquery.min.js" type="text/javascript"></script>
+
+<script src="Private/coolclock.js" type="text/javascript"></script>
+
+
+<img id="Overlay" height=480" width="320" style="position: absolute; top: -55px; left: -65px; z-index:-10;"></img>
+
+
+<script type="text/javascript">
+
+
+
+<!--
+
+
+
+var this_weekday_name_array = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+
+var this_month_name_array = new Array("January","February","March","April","May","June","July","August","September","October","November","December")	//predefine month names
+
+
+
+var this_date_timestamp = new Date()	
+
+var this_weekday = this_date_timestamp.getDay()   
+
+var this_date = this_date_timestamp.getDate()     
+
+var this_month = this_date_timestamp.getMonth()   
+
+var this_year = this_date_timestamp.getYear()     
+
+
+
+if (this_year < 1000)
+
+    this_year+= 1900;
+
+if (this_year==101)
+
+    this_year=2001;    
+
+
+
+
+
+
+// -->
+
+
+
+function init ( )
+
+{
+
+  timeDisplay = document.createTextNode ( "" );
+
+document.getElementById("clock").appendChild ( timeDisplay );
+
+}
+
+function updateClock ( )
+
+{
+
+  var currentTime = new Date ( );
+
+  var currentHours = currentTime.getHours ( );
+
+  var currentMinutes = currentTime.getMinutes ( );
+
+  var currentSeconds = currentTime.getSeconds ( );
+
+  // Pad the minutes and seconds with leading zeros, if required
+
+  currentHours = ( currentHours < 10 ? "0" : "" ) + currentHours;
+
+  currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;
+
+  currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------12 hours to 24 hour Edit------*/
+
+
+
+/* Remove the /* from under this line to display the 12 hours clock */	/* NEW!! */
+
+
+
+/*
+
+  // Choose either "AM" or "PM" as appropriate
+
+  var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
+
+  // Convert the hours component to 12-hour format if needed
+
+  currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
+
+  // Convert an hours component of "0" to "12"
+
+  currentHours = ( currentHours == 0 ) ? 12 : currentHours;
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+  // Compose the string for display
+
+  var currentTimeString = currentHours + ":" + currentMinutes;
+
+
+
+  // Update the time display
+
+    document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+
+}
+
+
+
+function init2 ( )
+
+{
+
+  timeDisplay = document.createTextNode ( "" );
+
+  document.getElementById("ampm").appendChild ( timeDisplay );
+
+}
+
+
+
+function amPm ( )
+
+{
+
+  var currentTime = new Date ( );
+
+  var currentHours = currentTime.getHours ( );
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------AM PM Edit------*/
+
+
+
+/* Remove the /* from under this line to display am or pm after the 12 hours clock */  /* NEW!! */
+
+
+
+  // Choose either "AM" or "PM" as appropriate
+
+  var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
+
+  // Convert the hours component to 12-hour format if needed
+
+  currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
+
+  // Convert an hours component of "0" to "12"
+
+  currentHours = ( currentHours == 0 ) ? 12 : currentHours;
+
+  // Compose the string for display
+
+  var currentTimeString = timeOfDay;
+
+  // Update the time display
+
+document.getElementById("ampm").firstChild.nodeValue = currentTimeString;
+
+}
+
+function init3 ( )
+
+{
+
+  timeDisplay = document.createTextNode ( "" );
+
+  document.getElementById("date").appendChild ( timeDisplay );
+
+}
+
+
+
+
+// -->
+
+
+
+</script>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<table style="position: absolute;top: -109px; left: -75px; width: 320px; height: 480px; z-index: 1; -webkit-transform:scale(0.52);">
+
+<tr align="center" valign="top"  border="0" cellpadding="0">
+
+    <td height="12" valign="top" margin-left="0" >
+
+<canvas class="CoolClock"></canvas>
+
+<td></td>
+
+</tr>
+
+</table>
+
+
+
+<table style="position: absolute;top: 188px; left: 10px; width: 320px; height: 480px; z-index: 8;">
+
+<tr align="center" valign="top" border="0" cellpadding="0">
+
+    <td height="12" valign="top" margin-left="0" >
+
+<span id="clock">
+
+<script language="JavaScript">updateClock(); setInterval('updateClock()', 1000 )</script>
+
+</span>
+
+<td></td>
+
+</tr>
+
+</table>
+
+
+
+<table style="position: absolute;top: 260px; left: 0px; width: 321px; height: 481px; z-index: 8;">
+
+<tr align="center" valign="top"  border="0" cellpadding="0">
+
+    <td height="12" valign="top" margin-left="20" >
+
+<span id="date">
+
+<script language="JavaScript">calendarDate(); setInterval('calendarDate()', 1000 )</script>
+
+</span>
+
+<td></td>
+
+</tr>
+
+</table>
+
+
+
+<table style="position: absolute;top: 239px; left: 0px; width: 321px; height: 481px; z-index: 8;">
+
+<tr align="center" valign="top"  border="0" cellpadding="0">
+
+    <td height="12" valign="top" margin-left="20" >
+
+<span id="year">
+
+<script language="JavaScript">calendarDate(); setInterval('calendarDate()', 1000 )</script>
+
+</span>
+
+<td></td>
+
+</tr>
+
+</table>
+
+
+
+
+</body>
+
+<body bgcolor="Transparent" width="320" height="45" onload="init()">
+
+
+	<div id="cityname"></div>
+
+	<div id="neighborhoodname"></div>
+
+       <div id="latlong"></div>
+
+	<div id="results"></div>
+
+	<div id="UpdateLocation">
+
+		<span id="UpdateLocation"><script language="JavaScript">UpdateLocation(); setInterval('UpdateLocation()', 20000 )</script></span>
+
+	</div>
+
+	<div id="temp"></div>
+
+	<div id="weathertext"></div>
+
+	<div id="highlowtemp"></div>
+
+       <div id="weathericon"></div>
+
+<script>
+
+	$( '#Overlay' ).attr( 'src', 'Style/' + Overlay );
+
+</script>
+
+
+
+</body>
+
+</html>
