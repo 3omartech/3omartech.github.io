@@ -156,17 +156,4 @@ Description: Digital clock widget and date
 Author: 3omartech
 Name: DIGILS
 
-Package: com.3omartech.cleancl0ck
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Homepage:https://3omar-tech.blogspot.com/2019/06/silver-and-black-analog-clock-widget.html
-Filename: /CLeanCl0ck.deb
-Size: 284714
-MD5sum: fb7ed6cb75d4949a54507aae64b318b0
-SHA256: d19afd2a14b414c958355763780c8ff103d1d012d58f4b9628615eb61e382399
-Section: Widgets
-Description: Silver And Blcak Analoge Clock Widget Free
-Author: 3omartech
-Name: CLeanCl0ck
 
