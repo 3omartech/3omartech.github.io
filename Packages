@@ -141,19 +141,6 @@ Description: Wallpaper And Widget FREE (Widget made by lockplus pro)
 Author: 3omartech
 Name: Q2019
 
-Package: com.3omartech.cleancl0ck
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Homepage:https://3omar-tech.blogspot.com/2019/06/silver-and-black-analog-clock-widget.html
-Filename: /CLeanCl0ck.deb
-Size: 284714
-MD5sum: c0b2de1ba03e66834b9cbcf779daf6d6
-SHA256: 7f0d259bcc2d9376d346903928dc11482c54b6df6e17176487e574eb36979b6c
-Section: Widgets
-Description: Silver And Blcak Analoge Clock Widget Free
-Author: 3omartech
-Name: CLeanCl0ck
 
 Package: com.3omartech.digitls
 Version: 0.0.1
