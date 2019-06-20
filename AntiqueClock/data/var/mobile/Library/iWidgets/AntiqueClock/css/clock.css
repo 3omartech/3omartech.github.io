@@ -1,0 +1,19 @@
+div.clock{
+	position: relative;
+}
+
+div.clock img.background, div.clock img.hour, div.clock img.min, div.clock img.sec{
+	position: absolute;
+	top:0px;
+	
+
+
+}
+
+div.clock img.hour, div.clock img.min, div.clock img.sec{
+	display: none;
+}
+
+div.clock img.min{
+	left:-1px;
+	}
