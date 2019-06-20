@@ -170,6 +170,19 @@ Description: silver and black clock widget free
 Author: 3omartech
 Name: CLeanCl0ck
 
+Package: com.3omartech.antiqueclock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/06/antique-clock-widget.html
+Filename: /AntiqueClock.deb
+Size: (710458
+MD5sum: 69eb16b499fae83ce633e4faf75ab41f
+SHA256: 8c34114a591c53378cf7c7e9e5ffaa5d36e0116bb35dbbc0fad83594ca8a1dea
+Section: Widgets
+Description: Free Antique Clock widget
+Author: 3omartech
+Name: AntiqueClock
 
 
 
