@@ -198,6 +198,21 @@ Description: Simple Clock and Date widget 1 black and 1 silver(made by lockplus 
 Author: 3omartech
 Name: D.20
 
+Package: com.3omartech.clearwidget
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/new-widget.html
+Filename: /ClearWidget.deb
+Size: 117110
+MD5sum: 99e9ade16494d62b3f66b68617cbba48
+SHA256: da5ee411606db903510de01a22fc05632f7727befb396c57368dfcc28571272a
+Section: Widgets
+Description: clear widget (made by lockplus pro)
+Author: 3omartech
+Name: ClearWidget
+
+
 
 
 
