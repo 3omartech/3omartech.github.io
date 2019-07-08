@@ -212,6 +212,35 @@ Description: clear widget (made by lockplus pro)
 Author: 3omartech
 Name: ClearWidget
 
+Package: com.3omartech.v.20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/v20-new-widget.html
+Filename: /V.20.deb
+Size: 65072
+MD5sum: d5ce1e5b077e5fd795c22be6180e27f9
+SHA256: 7d0094584964f6c2e0ba8111734a1fd4a0b0875e77f2f24b223c58ecd6bc4b24
+Section: Widgets
+Description: A nice vertical widget (made by lockplus pro)
+Author: 3omartech
+Name: V.20
+
+Package: com.3omartech.redc
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/redc-new-widget.html
+Filename: /RedC.deb
+Size: 412908
+MD5sum: da570828f308476c9be578cb3a9accbc
+SHA256: 41192df68e243848b3cbb092f40671d49e28922633a549e8fd3386543cef64b4
+Section: Widgets
+Description: for car lovers (made by lockplus pro)
+Author: 3omartech
+Name: RedC
+
+
 
 
 
