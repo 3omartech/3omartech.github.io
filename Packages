@@ -241,6 +241,21 @@ Author: 3omartech
 Name: RedC
 
 
+Package: com.3omartech.0cean
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/natural-widget-with-time-and-date.html
+Filename: /0CEAN.deb
+Size: 290224
+MD5sum: 9baec10b4037518dda2917ee814bf8ad
+SHA256: de0cce5b9044d165a8a4340ea10ab3cfcf7d3c76d93658d1204e8978930aada3
+Section: Widgets
+Description: natural widget with time and date
+Author: 3omartech
+Name: 0CEAN
+
+
 
 
 
