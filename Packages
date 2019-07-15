@@ -255,19 +255,7 @@ Description: natural widget with time and date
 Author: 3omartech
 Name: 0CEAN
 
-Package: com.3omartech.es
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Homepage:https://3omar-tech.blogspot.com/2019/07/blog-post_14.html
-Filename: /estakhfer.deb
-Size: 16856
-MD5sum: 8bd9b54e39517dcbcc8a15a1b475665c
-SHA256: b3fc81b4a3f7c7ca1ae4479918ed6dbd54eb217ec20af63fd76e65ff5634fd18
-Section: Widgets
-Description: ESTAKHFER
-Author: 3omartech
-Name: estakhfer
+
 
 
 
