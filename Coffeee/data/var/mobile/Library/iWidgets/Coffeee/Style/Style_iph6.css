@@ -1,0 +1,838 @@
+body{
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	font-family:Helvetica;
+	}
+
+
+
+#Layer{
+	background: url('../Images/iph6/Layer.png')
+	center no-repeat;
+	background-size: 414px 736px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 736px;
+	width: 414px;
+	z-index: -20;
+	-webkit-animation: fadein 2s linear 1 normal;
+	-webkit-animation-fill-mode: forwards;
+	
+}
+
+#city{
+	position:absolute;
+	display:none;
+	top:415px;
+	left: 0px;
+	width:320px;
+	z-index:90;
+	height:667px;
+	text-align:center;
+	font-weight:fine; 
+	font-size:20px;
+	color:#a79585;
+	text-shadow: 0px 0px 3px #0CBAF3, 0px 0px 3px #0CBAF3;
+	}
+
+
+#extraLocCity{
+	position:absolute;
+	top:467px;
+	left:75px;
+	width:375px;
+	height:667px;
+	text-align:center;
+	font-weight: normal; 
+	font-size:13px;
+	color:#BC826F;
+	display:none;
+	text-shadow:black 0px 1px 1px;
+    }
+
+
+#neighborhood{
+	position:absolute;
+	top:330px;
+	left:0px;
+	width:414px;
+	height:736px;
+	text-align:center;
+	font-weight: normal; 
+	font-size:18px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	display:;
+	-webkit-transform:rotate(0deg);
+}
+
+
+#county{
+    position:absolute;
+	top:61px;
+	left: 32px;
+	width:320px;
+	height:32px;
+	text-align:left;
+	font-weight: normal; 
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+	}
+
+
+#state{
+	position:absolute;
+	top:71px;
+	left: 32px;
+	width:320px;
+	height:32px;
+	text-align:left;
+	font-weight: normal; 
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+
+#country{
+	position:absolute; 
+	top:63px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	z-index:90;
+	font-weight: normal; 
+	font-size:12px;
+	color: #e1dfdf;
+	text-transform:uppercase;
+	display:none;
+    }
+
+
+#temp{
+	position:absolute; 
+	top:705px;
+	left:182px;
+	width:414px; 
+	height:736px; 
+	text-align:center; 
+	z-index:90;
+	font-weight:bold; 
+	font-size:20px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+    }
+
+
+#RealFeel{
+	position:absolute; 
+	top:40px;
+	left: -32px;
+	width:320px; 
+	height:100px; 
+	text-align:right; 
+	z-index:90;
+	font-weight:normal; 
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#highlowtemp{
+	position:absolute; 
+	display:none;
+	top:22px;
+	left:20px;
+	width:320px; 
+	height:20px; 
+	text-align:left; 
+	z-index:90;
+	font-weight: normal; 
+	font-size:13px;
+	color:#a79585;
+    }
+ 
+
+#desc{
+	position:absolute; 
+	top:705px;
+	left:0px;
+	height:736px;
+	width: 414px;
+	text-align:center; 
+	z-index:90;
+	font-weight:fine; 
+	font-size:20px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	text-overflow: ellipsis;
+    }
+
+#Day0Icon{
+	position:absolute;
+	height:40px;
+	width: 40px;
+	top:697px;
+	left:7px;
+	z-index:10;
+	opacity:10;
+    }
+
+
+#MoonIcon{
+	position:absolute;
+	top:127px;
+	left: 88px;
+	width:30px;
+	height:30px;
+	display:none;
+    }
+
+
+#moonphase{
+	position:absolute; 
+	top:127px;
+	left: 32px;
+	width: 50px;
+	text-align:center; 
+	font-weight: normal; 
+	font-size:12px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#woeid{
+	position: absolute;
+	top: 160px;
+	left: -32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+	z-index:90;
+	display:none;
+    }
+
+
+#zip{
+	position: absolute;
+	top: 173px;
+	left: -32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+	z-index:90;
+	display:none;
+    }
+
+
+#sunrise{
+	position:absolute; 
+	top:405px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	font-weight: normal; 
+	font-size:12px;
+	color:#a79585;
+	text-shadow:black 0px 1px 1px;
+	display:none;
+    }
+
+
+#sunset{
+	position:absolute; 
+	top:405px;
+	left:32px;
+	width:320px; 
+	height:20px; 
+	text-align:left; 
+	font-weight: normal; 
+	font-size:12px;
+	color:#a79585;
+	text-shadow:black 0px 1px 1px;
+	display:none;
+    }
+
+
+#lastupdate{
+	display:none;
+    }
+
+
+#xmlupdate{
+	position:absolute; 
+	top:87px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	font-weight: normal; 
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#ExtendedInfo{
+	position: absolute;
+	height: 450px;
+	width: 320px;
+	top:40px;
+	left:0px;
+	z-index:90;  
+	display:none;
+    }
+
+
+#wind{
+	position: absolute;
+	top: 120px;
+	left: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: left;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#pressure{
+	position: absolute;
+	top: 85px;
+	right: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#rising{
+	position: absolute;
+	top: 95px;
+	right: -10px;
+	width: 160px;
+	height: 22px;
+	text-align: center;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+    }
+
+
+#humidity{
+	position: absolute;
+	top: 107px;
+	right: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#visibility{
+	position: absolute;
+	top: 133px;
+	left: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: left;
+	font-weight: lighter;
+	font-size:10px;
+	color: #e1dfdf;
+	display:none;
+    }
+
+
+#ForecastBG{
+	background: url('../Images/iph5/ForecastBG.png')
+	center no-repeat;
+	background-size: 375px 667px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 667px;
+	z-index: -10;
+	}
+
+#forecast{
+	position: absolute;
+	height:100px;
+	display:;
+	width: 414px;
+	top:370px;
+	left:0px;
+	z-index:500;
+	-webkit-transition : all 1.5s;
+    }
+
+
+#Day1{
+	position: relative;
+	display:;
+	top: -28px;
+	left: 2px;
+	width : 50px;
+	font-weight: normal;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	font-size:12px;
+    }
+
+
+#Day2{
+    position: relative;
+    top: -28px;
+    left:4px;
+    width :50px;
+    font-weight: normal;
+    color:#b1a595;
+    text-shadow:black 0px 1px 1px;
+    font-size:12px;
+    }
+
+#Day3{
+    position: relative;
+    top: -28px;
+    left:3px;
+    width : 50px;
+    font-weight: normal;
+    color:#b1a595;
+    text-shadow:black 0px 1px 1px;
+    font-size:12px;
+    }
+
+
+#Day4{
+    position: relative;
+    display:none;
+    top: -28px;
+    left: 61px;
+    width : 50px;
+    font-weight: normal;
+    color:#b1a595;
+    text-shadow:black 0px 1px 1px;
+    font-size:12px;
+    }
+
+#Day5{
+    position: relative;
+    top: -32px;
+    width : 50px;
+    font-weight: normal;
+    color:#b1a595;
+    text-shadow:black 0px 1px 1px;
+    font-size:12px;
+    display:none;
+    }
+
+
+#Day1Icon{
+	position: relative;
+	display:;
+	top: 20px;
+	left: 2px;
+	width: 35px;
+	height: 35px;
+    }
+
+#Day2Icon{
+	position: relative;
+	top:20px;
+	left:4px;
+	width: 35px;
+	height: 35px;
+    }
+
+#Day3Icon{
+	position: relative;
+	top:20px;
+	left:3px;
+	width: 35px;
+	height: 35px;
+    }
+
+
+#Day4Icon{
+	position: relative;
+	display:none;
+	top: 18px;
+	left: 15px;
+	width: 28px;
+	height: 28px;
+    }
+
+
+#Day5Icon{
+	position: relative;
+	top: 19px;
+	width: 40px;
+	height: 40px;
+	display:none;
+    }
+
+
+#Day1HiLo{
+	position: relative;
+	display:;
+	top:3px;
+	left: 2px;
+	width: 60px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	font-size:11px;
+    }
+
+
+#Day2HiLo{
+	position: relative;
+	top:3px;
+	left:5px;
+	width: 60px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	font-size:11px;
+    }
+
+
+#Day3HiLo{
+	position: relative;
+	top:3px;
+	left:3px;
+	width: 60px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	font-size:11px;
+    }
+
+
+#Day4HiLo{
+	position: relative;
+	display:none;
+	top:6px;
+	left:64px;
+	width: 60px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	font-size:12px;
+    }
+
+
+#Day5HiLo{
+	position: relative;
+	top:1px;
+	width: 50px;
+	color:#b1a595;
+	text-shadow:black 0px 1px 1px;
+	font-size:12px;
+	display:none;
+    }
+
+
+#hourlyFirst6{
+    background-color: transparent;
+	position: absolute;
+	top: 255px;
+	left: 0px;
+	width : 320px;
+	height: 100px;
+	display:none;
+    }
+
+
+#Hour1, #Hour2, #Hour3, #Hour4, #Hour5, #Hour6{
+	position: relative;
+	top: -6px;
+	width : 45px;
+	font-weight: normal;
+	color:#c9c199;
+	font-size:10px;
+    }
+
+
+#Hicon1, #Hicon2, #Hicon3, #Hicon4, #Hicon5, #Hicon6{
+    position: relative;
+	top: -10px;
+	width: 25px;
+	height: 25px;
+    }
+
+
+#Htemp1, #Htemp2, #Htemp3, #Htemp4, #Htemp5, #Htemp6{
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color:#c9c199;
+	font-size:10px;
+    }
+
+
+#Hpop1, #Hpop2, #Hpop3, #Hpop4, #Hpop5, #Hpop6{
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color:#c9c199;
+	font-size:10px;
+    }
+
+
+#hourlyLast6{
+    background-color: transparent;
+	position: absolute;
+	top: 330px;
+	left: 0px;
+	width : 320px;
+	height: 100px;
+	display:none;
+    }
+
+
+#Hour7, #Hour8, #Hour9, #Hour10, #Hour11, #Hour12{
+	position: relative;
+	top: -6px;
+	width : 45px;
+	font-weight: normal;
+	color:#c9c199;
+	font-size:10px;
+    }
+
+
+#Hicon7, #Hicon8, #Hicon9, #Hicon10, #Hicon11, #Hicon12{
+	position: relative;
+	top: -10px;
+	width: 25px;
+	height: 25px;
+    }
+
+
+#Htemp7, #Htemp8, #Htemp9, #Htemp10, #Htemp11, #Htemp12{
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color:#c9c199;
+	font-size:10px;
+    }
+
+
+#Hpop7, #Hpop8, #Hpop9, #Hpop10, #Hpop11, #Hpop12{
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color:#c9c199;
+	font-size:10px;
+
+}
+
+#DigitalClock{
+	position:absolute;
+	background-color:transparent;
+	top:135px;
+	display:none;
+	left:0px;
+	width:375px; 
+	height:667px; 
+	text-align:center; 
+	font-weight:fine;
+	color:#a79585;
+	text-shadow: 1px 0px 1px;
+	-webkit-transform:rotate(0deg);
+    }
+
+#DigitalClock2{
+	position:absolute;
+	background-color:transparent;
+	top:135px;
+	display:none;
+	left:0px;
+	width:375px; 
+	height:667px; 
+	text-align:center; 
+	font-weight:fine;
+	color:#a79585;
+	text-shadow: 1px 0px 1px;
+	-webkit-transform:rotate(0deg);
+    }
+	
+
+#ClockBG{
+    position: absolute;
+	background-color:transparent;
+	display:none
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height:667px;
+	z-index:-9;
+    }
+
+
+#DateBG{
+    position: absolute;
+	background-color:transparent;
+	display:none;
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height:667px;
+	z-index:-9;
+    }
+
+
+#clock{
+	position: relative;
+	display:none;
+	font-size: 25px;
+	color:#a79585;
+	font-weight:fine;
+	text-overflow: ellipsis;
+	text-shadow:black 0px 1px 1px;
+	
+    }
+	
+#clock2{
+	position: relative;
+	display:none;
+	font-size: 25px;
+	color:#a79585;
+	font-weight:fine;
+	text-overflow: ellipsis;
+	text-shadow:black 0px 1px 1px;
+    }
+
+
+#AnalogClock{ /* Container */
+	position: absolute;
+	display:none;
+	top:45px;
+	left:60px;
+	background-color:transparent;
+	width:375px;
+	height: 667px;
+	opacity:1.0;
+	display:none;
+	-webkit-transition: all 0.8s;
+	}
+
+
+#ClockFace{
+	background: url('../Images/clockhands/clockface.png')0px 0px no-repeat;
+	position: absolute;
+	display:none;
+	background-color:transparent;
+	width: 200px;
+	height: 198px;
+	background-size:200px 198px;
+	z-index: 82;
+	-webkit-transition:-webkit-transform 1s linear;
+	}			
+		
+
+#sechand{
+	background: url('../Images/clockhands/sechand.png')0px 0px no-repeat;
+	display:none;
+	position: absolute;
+	background-color:transparent;
+	width: 200px;
+	height: 200px;
+	background-size:200px 200px;
+	z-index: 85;
+	-webkit-transition:-webkit-transform 1s linear;
+	}	
+
+	
+#hourhand{
+	background: url('../Images/clockhands/hourhand.png') 0px 0px no-repeat;
+	display:none;
+	position: absolute;
+	background-color:transparent;
+	width: 200px;
+	height: 200px;
+	background-size:200px 200px;
+	z-index: 83;
+	-webkit-transition:-webkit-transform 1s linear;
+	}
+
+	
+#minhand{
+	background: url('../Images/clockhands/minhand.png') 0px 0px no-repeat;
+	position: absolute;
+	display:none;
+	background-color:transparent;
+	width: 200px;
+	height: 200px;
+	background-size:200px 200px;
+	z-index: 84;
+	-webkit-transition:-webkit-transform 1s linear;
+	}
+
+
+#node{
+	background: url('../Images/clockhands/node.png') 0px 0px no-repeat;
+	position: absolute;
+	display:none;
+	width: 200px;
+	height: 200px;
+	background-size:200px 200px;
+	z-index: 90;
+	}	
+
+	
+#date{
+	position:absolute; 
+	display:none;
+	background-color:transparent;
+	top:430px;
+	right:0px;
+	width:375px; 
+	height:667px; 
+	text-align:center; 
+	font-size:20px;
+	color:#a79585;
+	text-shadow:black 0px 1px 1px;
+	font-weight:fine;
+	z-index:100;
+	-webkit-transform:rotate(0deg);
+    }
+
+#date2{
+	position:absolute; 
+	background-color:transparent;
+	display:none;
+	top:430px;
+	right:0px;
+	width:375px; 
+	height:667px; 
+	text-align:center; 
+	font-size:20px;
+	color:#a79585;
+	text-shadow:black 0px 1px 1px;
+	font-weight:fine;
+	z-index:100;
+	-webkit-transform:rotate(0deg);
+    }

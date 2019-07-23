@@ -298,6 +298,21 @@ Author: 3omartech
 Name: CoffeeLovers
 
 
+Package: com.3omartech.coffeee
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/amazing-widget-for-coffee-lovers.html
+Filename: /Coffeee.deb
+Size: 6957158
+MD5sum: 6701668552300be54428974762069f10
+SHA256: f698790bd282b6b97d4b5a16a29510f7b1e9ea968908f8fb3be08961c9ee2967
+Section: Widgets
+Description: amazing Widget For coffee Lovers 
+Author: 3omartech
+Name: Coffeee
+
+
 
 
 

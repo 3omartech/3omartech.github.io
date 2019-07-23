@@ -1,0 +1,105 @@
+<!-------------------------------------------------- Anaclog ------------------------------------------------>
+
+<html><head>
+<script type="text/javascript" src="../Config.js"></script>
+<link rel="stylesheet" type="text/css" href="../Style.css">
+
+<script language="JavaScript">
+	var xmlReq = new XMLHttpRequest();
+	var launchReq = new XMLHttpRequest();
+	
+function processXml() 
+{
+	if (xmlReq.readyState != 4) return;
+	if (xmlReq.status != 200 && xmlReq.status != 0) return;
+}
+function update()
+{
+	xmlReq.onreadystatechange = processXml;
+	xmlReq.timeout = 2000;
+	xmlReq.open("GET", "http://127.0.0.1:16322/status", true);
+	xmlReq.send();
+	setTimeout(update, 2000);
+}
+
+function my_cal()
+{
+
+var days_sett = new Array('Su','Mo','Tu','We','Th','Fr','Sa','Su');
+
+if (Lang == "fr"){
+var days_sett = new Array('Di','Lu','Ma','Me','Je','Ve','Sa','Di');
+}
+if (Lang == "de"){
+var days_sett = new Array('So','Mo','Di','Mi','Do','Fr','Sa','So');
+}
+if (Lang == "it"){
+var days_sett = new Array('Do','Lu','Ma','Me','Gi','Ve','Sa','Do');
+}
+if (Lang == "ca"){
+var days_sett = new Array('Do','Lu','Ma','Mi','Ju','Vi','Sa','Do');
+}
+
+var month_year = new Array('January','Feburary','March','April','May','June','July','August','September','October','November','December');
+var days_month = new Array(31,28,31,30,31,30,31,31,30,31,30,31);
+
+var Calendar = new Date();
+var Clock = new Date();
+
+var year = Calendar.getFullYear();	       //year
+var month = Calendar.getMonth();		//month (by 0 to 11)
+var today = Calendar.getDate(); 	       //numero day (by 1 to 31)
+var day = Calendar.getDay();		//day settimana (by 0 to 6)
+
+var num_days = 7;
+var day;
+var cal;
+
+cal =  '<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0"><TR>';
+cal += '</TR><TR><TD CLASS="month">' + month_year[month] + '</TD></TR><TR><TD CLASS="year">' + year + '</TD></TR></TABLE>';
+cal +=	'<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0"><TR>';
+
+var day = day;
+
+for(index=0; index < num_days; index++) {
+	if (day == index)
+		cal += '<TD CLASS="days_s">' + days_sett[index] + '</TD>';
+	else
+		cal += '<TD CLASS="days">' + days_sett[index] + '</TD>';
+}
+
+cal += '</TR><TR>';
+
+for(index=0; index < num_days; index++) {
+		var yesterday_tomorrow = today - (day-index);
+		var this_month = days_month[month];
+		
+	if (day == index)
+		cal += '<TD CLASS="numbers_days_s">' + today + '</TD>';
+	else if (yesterday_tomorrow < this_month+1 & yesterday_tomorrow > 0)
+		cal += '<TD CLASS="numbers_days">' + yesterday_tomorrow + '</TD>';
+	else
+		cal += '<TD CLASS="numbers_days"></TD>';
+}
+
+cal += '</TR></TABLE>';
+
+document.getElementById("cal").innerHTML = cal;
+setTimeout("my_cal()",1000);
+}
+</script>
+
+<script language="JavaScript">
+function doLoad()
+{
+	update();
+	my_cal();
+}
+</script>
+</head>
+
+<body onload="doLoad()">
+
+<div id="cal"></div>
+
+</body></html>

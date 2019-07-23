@@ -1,0 +1,233 @@
+<!-------------------------------------------------- Anaclog ------------------------------------------------>
+
+
+
+<html><head>
+
+<script type="text/javascript" src="../Scripts/jquery.min.js"></script>
+
+
+
+<img src="../Images/ClockFace.png" style="position:absolute; top:0px; left:0px; width:260px; height:390px; z-index:-70;display:none;">
+
+
+
+<style type="text/css">
+
+
+
+body {
+
+	margin: 0;
+
+	background-color: none;
+
+	height: 736px;
+
+	width:414px;
+
+}
+
+#clock {
+
+	list-style: none;
+
+	padding: 0;
+
+}
+
+.clock li {
+
+	position:relative;width:320px; height:224px;
+
+	margin: 15px;
+
+	padding: 0;
+
+	float: left;
+
+	list-style: none;
+
+}
+
+.clock em {
+
+	position:absolute; width:320px; height:480px;
+
+	display: block;
+
+}
+
+* {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+#sec, #min, #hour {
+
+	position:absolute; top:45px; left:113px; width:34px; height:224px;
+
+}
+
+#hour {
+
+	background: url(../Clock/hourhand.png);
+
+	background-size: 34px 224px;
+
+	z-index: 4;
+
+}
+
+#min {
+
+	background: url(../Clock/minhand.png);
+
+	background-size: 34px 224px;
+
+	z-index: 8;
+
+}
+
+#sec {
+
+	background: url(../Clock/sechand.png);
+
+	background-size: 34px 224px;
+
+	z-index: 12;
+
+}
+
+
+
+#secshad, #minshad, #hourshad {
+
+	position:absolute; top:0px; left:110px; width:34px; height:224px;
+
+}
+
+#hourshad {
+
+	background: url(../Clock/hourshad.png);
+
+	background-size: 34px 224px;
+
+	top: 75px;
+
+	z-index: 2;
+
+}
+
+#minshad {
+
+	background: url(../Clock/minshad.png);
+
+	background-size: 34px 224px;
+
+	top: 75px;
+
+	z-index: 6;
+
+}    
+
+#secshad {
+
+	background: url(../Clock/secshad.png);
+
+	background-size: 34px 224px;
+
+	top: 74px;
+
+	z-index: 10;
+
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+      setInterval( function() {
+
+      var seconds = new Date().getSeconds();
+
+      var sdegree = seconds * 6;
+
+      var srotate = "rotate(" + sdegree + "deg)";
+
+      $("#sec, #secshad").css("-webkit-transform", srotate );
+
+      }, 1000 );
+
+
+
+      setInterval( function() {
+
+      var hours = new Date().getHours();
+
+      var mins = new Date().getMinutes();
+
+      var hdegree = hours * 30 + (mins / 2);
+
+      var hrotate = "rotate(" + hdegree + "deg)";
+
+      $("#hour, #hourshad").css("-webkit-transform", hrotate );
+
+      }, 1000 );
+
+
+
+      setInterval( function() {
+
+      var mins = new Date().getMinutes();
+
+      var mdegree = mins * 6;
+
+      var mrotate = "rotate(" + mdegree + "deg)";
+
+      $("#min, #minshad").css("-webkit-transform", mrotate );
+
+      }, 1000 );
+
+}); 
+
+
+
+</script>
+
+</head>
+
+
+
+<body>
+
+	<ul id="clock"> 
+
+		<li id="sec"></li>
+
+		<li id="secshad"></li>
+
+		<li id="min"></li>
+
+		<li id="minshad"></li>
+
+		<li id="hour"></li>
+
+		<li id="hourshad"></li>
+
+	</ul>
+
+
+
+<img src="../Clock/Dot.png" style="position:absolute; top:146px; left:120px; width:20px; height:20px; z-index:18;">
+
+
+
+</body></html>

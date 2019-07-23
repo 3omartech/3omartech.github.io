@@ -1,0 +1,183 @@
+<!------------------------------------------------ Anaclog ---------------------------------------------------------------->
+
+
+
+body {
+
+	margin:0;
+
+	top:0;
+
+}
+
+#cal {
+
+	position:absolute; top:460px; left:125px; width:414px; height:736px; text-align:center;
+
+	font-size:70px;
+
+	color:#b1a595;
+
+	background-color: transparent;
+
+	vertical-align:center;
+
+       text-shadow: 0px 1px 1px black;
+
+       font-family:;
+
+}
+
+td.days {
+
+	height:20px;
+
+	width:23px;
+
+	font-size:15px;
+
+	font-family:;
+
+	color: #b1a595;
+
+       text-shadow: 0px 1px 1px black;
+
+	vertical-align:center;
+	
+	opacity:5;
+
+}
+
+td.days_s {
+
+	height:20px;
+
+	width:16px;
+
+	font-size:15px;
+
+	font-family:;
+
+	color:#d6bc97;
+       
+	text-shadow:black 0px 1px 1px;
+
+	vertical-align:center;
+
+}
+
+
+
+td.numbers_days {
+
+	height:20px;
+
+	width:26px;
+
+	font-size:15px;
+
+	font-family:;
+
+	color: #b1a595;
+
+       text-shadow: 0px 1px 1px black;
+
+	vertical-align: top;
+	
+	opacity:5;
+
+}
+
+td.numbers_days_s {
+
+	height:20px;
+
+	width:23px;
+
+	font-size:15px;
+
+	font-family:;
+
+	color:#d6bc97;
+
+	text-shadow:black 0px 1px 1px;
+
+	vertical-align: top;
+
+}
+
+
+
+
+
+coordinates {
+
+	height:20px;
+
+	width:16px;
+
+	font-size:34px;
+
+	font-family: Dense-Regular;
+
+	color: #d6bc97;
+
+       text-shadow: 0px 0px 2px white;
+
+	vertical-align:center;
+	
+	opacity: 0.5;display: none;
+
+}
+
+
+
+
+
+td.month {
+
+	height:20px;
+
+	width:23px;
+
+	font-size:20px;
+
+	font-family:;
+
+	color: #b1a595;
+
+	text-shadow: 0px 1px 1px black;
+
+	vertical-align:center;
+	
+	opacity:50;
+
+	display:;
+
+}
+
+
+
+
+
+td.year {
+
+	height:20px;
+
+	width:23px;
+
+	font-size:34px;
+
+	font-family: Dense-Regular;
+
+	color: #d6bc97;
+
+	text-shadow: 0px 0px 1px black;
+
+	vertical-align:center;
+	
+	opacity:100;
+
+	display:none;
+
+}
