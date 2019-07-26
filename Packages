@@ -327,6 +327,34 @@ Author: 3omartech
 Name: ArabicNight
 
 
+Package: com.3omartech.arabicnight2
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/arabic-night-widget.html
+Filename: /ArabicNight2.deb
+Size: 378326
+MD5sum: a09c57bfaf23dbdc9ad84af089eaa96b
+SHA256: 72e1256b5a2da2a3581dc1e9bf4eeddf186e2a7b6ce00b99d044a6d7a4f9034a
+Section: Widgets
+Description: ARABIC Night Widget 
+Author: 3omartech
+Name: ArabicNight2
+
+Package: com.3omartech.arabicnight3
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Filename: /ArabicNight3.deb
+Size: 214446
+MD5sum: 8933293d3c0fbd37478442b7836580fe
+SHA256: a1e5e2dd5dbd8b62845250c36097033d750d3428cf253d6ed08e24d340999544
+Section: Widgets
+Description: ARABIC Night Widget White
+Author: 3omartech
+Name: ArabicNight3
+
+
 
 
 
