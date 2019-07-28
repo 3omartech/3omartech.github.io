@@ -355,6 +355,22 @@ Description: Wall And Widget For Coffee Series
 Author: 3omartech
 Name: WhiteCoffee
 
+Package: com.3omartech.fullbox
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage:https://3omar-tech.blogspot.com/2019/07/fullbox-widget.html
+Filename: /FullBox.deb
+Size: 86678
+MD5sum: e3aa2fe7e575abfe7de85ab14d51527e
+SHA256: b440e68493f051bd9966049368d7d4d6af0576c983781ee09079206e4864485a
+Section: Widgets
+Description: Box Widget Content All you Want from widget 
+Author: 3omartech
+Name: FullBox
+
+
+
 
 
 
