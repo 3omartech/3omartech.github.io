@@ -1,0 +1,425 @@
+<!-- Created by JunesiPhone via LockPlus Pro -->
+<!-- Designed By 3omartech -->
+
+
+<html id="html">
+
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height initial-scale=1">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+            -webkit-transform-origin: top left;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <!-- <div id="help" style="color:red; position: absolute; top:100px;font-size: 8px;">test</div> -->
+    <script type="text/javascript">
+        var injectedWeather = {},
+            injectedSystem = {},
+            injectedMusic = {},
+            appToOpen = null,
+            urlToOpen = null,
+            cycript = {},
+            options = {},
+            weather = {},
+            albumArtAdded = false;
+
+        function batteryPercent() {
+            return injectedSystem.battery;
+        }
+
+        var percent = ['0', '40', '60', '100'];
+
+        /* Calling WebView */
+        function webviewUnlock() {
+            //window.location = 'js-call:unlockPhone';
+        }
+
+        function webviewFlashlight() {
+            //window.location = 'js-call:toggleFlashlight';
+        }
+
+        function webviewPlayMusic() {
+            window.location = 'xeninfo:playpause';
+        }
+
+        function webviewNextMusic() {
+            window.location = 'xeninfo:nexttrack';
+        }
+
+        function webviewPrevMusic() {
+            window.location = 'xeninfo:prevtrack';
+        }
+
+        function webviewOpenApp() {
+            window.location = 'xeninfo:openapp:' + appToOpen;
+        }
+
+        function openURL(url) { //called from widgets
+            window.location = 'xeninfo:openurl:' + url;
+        }
+
+
+        //sizing
+        var iPad = false;
+        var iPhoneX = false;
+
+        if (window.innerWidth === 375) {
+            document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.18, maximum-scale=1.18, user-scalable=0');
+        } else if (window.innerWidth === 414 || window.innerWidth === 425) { //upscale fix
+            document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.3, maximum-scale=1.3, user-scalable=0');
+        } else if (window.innerWidth === 427) {
+            iPad = true;
+            document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.3, maximum-scale=1.3, user-scalable=0');
+        } else if (window.innerWidth === 768) {
+            iPad = true;
+            document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.8, maximum-scale=1.8 user-scalable=0');
+        }
+
+        if (window.innerHeight == 689) {
+            try {
+                document.getElementById('mainContainer').style.height = "689px";
+                iPhoneX = true;
+            } catch (err) {}
+        }
+
+        function doiPad(type) {
+            if (type === 'land') {
+                document.getElementById('body').style.marginLeft = '120px';
+                document.getElementById('body').style.marginTop = '-70px';
+            } else {
+                document.getElementById('body').style.marginLeft = '55px';
+                document.getElementById('body').style.marginTop = '0px';
+            }
+        }
+
+        function doOnOrientationChange() {
+            window.addEventListener('orientationchange', doOnOrientationChange);
+            switch (window.orientation) {
+                case -90:
+                case 90:
+                    doiPad('land');
+                    break;
+                default:
+                    doiPad('por');
+                    break;
+            }
+        }
+
+        if (iPad) {
+            doOnOrientationChange();
+        }
+
+        //set defaults for XenHTML to display.
+        options.twentyfour = false;
+        injectedSystem.signalBars = 3;
+        injectedSystem.wifiBars = 3;
+        injectedSystem.mailBadge = "NA";
+        injectedSystem.smsBadge = "NA";
+        injectedSystem.phoneBadge = "NA";
+        injectedSystem.whatsBadge = "NA";
+        injectedSystem.telegramBadge = "NA";
+        injectedSystem.fbMessengerBadge = "NA";
+        injectedSystem.discord = "NA";
+        injectedSystem.viber = "NA";
+        injectedSystem.instagram = "NA";
+        injectedSystem.facebook = "NA";
+        injectedSystem.gmail = "NA";
+        injectedSystem.outlook = "NA";
+        injectedSystem.airmail = "NA";
+        injectedSystem.ymail = "NA";
+        injectedSystem.snapchat = "NA";
+        injectedSystem.reddit = "NA";
+        injectedSystem.googleplus = "NA";
+        injectedSystem.linkedin = "NA";
+        injectedSystem.slack = "NA";
+        injectedSystem.telegramXBadge = "NA";
+        injectedSystem.spark = "NA";
+        injectedSystem.ramFree = 200;
+        injectedSystem.ramUsed = 200;
+        injectedSystem.ramAvailable = 300;
+        injectedSystem.battery = 90;
+        injectedSystem.chargetext = "Not Charging";
+        injectedSystem.deviceName = "iPhone";
+        injectedSystem.systemVersion = "11.1.2";
+        injectedSystem.alarmDay = 5;
+        injectedSystem.alarmString = "10:00 PM";
+        injectedSystem.alarmHour = "10";
+        injectedSystem.alarmMinute = "00";
+        injectedSystem.ipaddress = "192.168.2.?";
+        injectedSystem.ramFree = "999";
+        injectedSystem.ramUsed = "999";
+        injectedSystem.ramAvailable = "999";
+
+        injectedMusic.isPlaying = false;
+        injectedMusic.title = "No Title";
+        injectedMusic.artist = "No Artist";
+        injectedMusic.album = "No Album";
+
+        injectedWeather.conditionCode = 32;
+        injectedWeather.temperature = "75";
+        injectedWeather.high = "75";
+        injectedWeather.low = "75";
+        injectedWeather.city = "Test City";
+        injectedWeather.windSpeed = "2";
+        injectedWeather.windDirection = "300";
+        injectedWeather.humidity = "90";
+        injectedWeather.windChill = "20";
+        injectedWeather.visibility = "100";
+        injectedWeather.chanceofrain = "0";
+        injectedWeather.feelsLike = "20";
+        injectedWeather.celsius = "true";
+        injectedWeather.dewPoint = "20";
+        injectedWeather.sunriseTime = "1040";
+        injectedWeather.sunsetTime = "1140";
+        injectedWeather.updateTimeString = "10:40 Updated";
+        injectedWeather.precipitationForecast = "0";
+        injectedWeather.name = "MyLocation";
+        injectedWeather.dayForecasts = [{
+                low: "65",
+                high: "89",
+                dayNumber: "0",
+                dayOfWeek: "1",
+                icon: "32"
+            },
+            {
+                low: "65",
+                high: "89",
+                dayNumber: "0",
+                dayOfWeek: "2",
+                icon: "32"
+            },
+            {
+                low: "65",
+                high: "89",
+                dayNumber: "0",
+                dayOfWeek: "3",
+                icon: "32"
+            },
+            {
+                low: "65",
+                high: "89",
+                dayNumber: "0",
+                dayOfWeek: "4",
+                icon: "32"
+            },
+            {
+                low: "65",
+                high: "89",
+                dayNumber: "0",
+                dayOfWeek: "5",
+                icon: "32"
+            },
+            {
+                low: "65",
+                high: "89",
+                dayNumber: "0",
+                dayOfWeek: "6",
+                icon: "32"
+            }
+        ];
+    </script>
+
+    <script type="text/javascript" src="js/legacyinfoSB.js"></script>
+
+    <div id="mainContainer" class="container">
+        <div id="screenElements"></div>
+    </div>
+
+    <script>
+        
+        //Hack to fix touches passed through FrontPage
+        setTimeout(function(){
+            try{
+                /* 
+                    cloning a node does not copy event listeners added using addEventListener()
+                    When using a LockPlus widget (which this is) lets remove the normal event
+                    to catch all touches to screenElements and just allow them to be called
+                    on the element. This helps with FrontPage passing touches.
+                */
+                var oldEvents = document.getElementById('screenElements');
+                oldEvents.parentNode.replaceChild(oldEvents.cloneNode(1), oldEvents);
+
+                if(document.getElementById('playmusic')){
+                    document.getElementById('playmusic').addEventListener('touchstart', function(el){
+                        webviewPlayMusic();
+                    });
+                }
+
+                if(document.getElementById('playmusichide')){
+                    document.getElementById('playmusichide').addEventListener('touchstart', function(el){
+                        webviewPlayMusic();
+                    });
+                }
+
+                if(document.getElementById('nextmusic')){
+                    document.getElementById('nextmusic').addEventListener('touchstart', function(el){
+                        webviewNextMusic();
+                    });
+                }
+
+                if(document.getElementById('nextmusichide')){
+                    document.getElementById('nextmusichide').addEventListener('touchstart', function(el){
+                        webviewNextMusic();
+                    });
+                }
+
+                if(document.getElementById('prevmusic')){
+                    document.getElementById('prevmusic').addEventListener('touchstart', function(el){
+                        webviewPrevMusic();
+                    });
+                }
+
+                if(document.getElementById('prevmusichide')){
+                    document.getElementById('prevmusichide').addEventListener('touchstart', function(el){
+                        webviewPrevMusic();
+                    });
+                }
+            }catch(err){
+
+            }
+        }, 3000);
+        
+        var musicHideItems = ['songalbumArt', 'playmusichide', 'nextmusichide', 'prevmusichide', 'boxCircleAutoHideOne', 'boxCircleAutoHideTwo', 'boxCircleAutoHideThree', 'boxCircleAutoHideFour', 'boxCircleAutoHideFive', 'boxCircleAutoHideSix', 'boxAutoHideOne', 'boxAutoHideTwo', 'boxAutoHideThree', 'boxAutoHideFour', 'boxAutoHideFive', 'boxAutoHideSix'];
+        //XenInfo
+
+        function setDiv(id, value, bg) {
+            var arworkPreload;
+            if (document.getElementById(id)) {
+                if (bg) {
+                    artworkPreload = new Image();
+                    artworkPreload.onload = function() {
+                        document.getElementById(id).style.backgroundImage = "url(" + this.src + ")";
+                        artworkPreload = null;
+                    };
+                    artworkPreload.src = "file:///var/mobile/Library/LockPlus/Artwork.jpg?" + (new Date()).getTime();
+                } else {
+                    document.getElementById(id).innerHTML = value;
+                }
+            }
+        }
+
+        function updateMusicElements() {
+            var musicDisplay = "block";
+            if (injectedMusic.isPlaying) {
+                setDiv('playmusic', 'u', false);
+                setDiv('nextmusic', 'y', false);
+                setDiv('prevmusic', 'x', false);
+                setDiv('playmusichide', 'u', false);
+                setDiv('nextmusichide', 'y', false);
+                setDiv('prevmusichide', 'x', false);
+                setDiv('songtitle', injectedMusic.title, false);
+                setDiv('songartist', injectedMusic.artist, false);
+                setDiv('songalbum', injectedMusic.album, false);
+                setDiv('songtitlenohide', injectedMusic.title, false);
+                setDiv('songartistnohide', injectedMusic.artist, false);
+                setDiv('songalbumnohide', injectedMusic.album, false);
+                setDiv('songalbumArt', 'url("file:///var/mobile/Library/LockPlus/Artwork.jpg?' + new Date().getMilliseconds() + '")', true);
+                setDiv('songalbumArtnohide', 'url("file:///var/mobile/Library/LockPlus/Artwork.jpg?' + new Date().getMilliseconds() + '")', true);
+                musicDisplay = "block";
+            } else {
+                musicDisplay = "none";
+                setDiv('playmusic', 'r', false);
+                setDiv('nextmusic', 'y', false);
+                setDiv('prevmusic', 'x', false);
+                setDiv('playmusichide', 'u', false);
+                setDiv('nextmusichide', 'y', false);
+                setDiv('prevmusichide', 'x', false);
+                setDiv('songtitle', '', false);
+                setDiv('songartist', '', false);
+                setDiv('songalbum', '', false);
+                setDiv('songalbumArt', 'url("")', true);
+            }
+            for (var i = 0; i < musicHideItems.length; i++) {
+                if (document.getElementById(musicHideItems[i])) {
+                    document.getElementById(musicHideItems[i]).style.display = musicDisplay;
+                }
+            }
+        }
+
+        setTimeout(function() {
+            updateMusicElements();
+        }, 400);
+
+        function mainUpdate(type) {
+            if (type == "weather") {
+                injectedWeather = weather;
+                injectedWeather.precipitationForecast = weather.chanceofrain;
+
+                //Fixes for LPP and XenInfo differences
+                injectedWeather.name = weather.city;
+                if(weather.celsius === 'C'){
+                    options.celsius = true;
+                }else if(weather.celsius === 'F'){
+                    options.celsius = false;
+                }
+            } else if (type == "statusbar") {
+                injectedSystem.signalBars = signalBars;
+                injectedSystem.wifiBars = wifiBars;
+                injectedSystem.mailBadge = "NA";
+                injectedSystem.smsBadge = "NA";
+                injectedSystem.phoneBadge = "NA";
+                injectedSystem.whatsBadge = "NA";
+                injectedSystem.telegramBadge = "NA";
+                injectedSystem.fbMessengerBadge = "NA";
+                injectedSystem.discord = "NA";
+                injectedSystem.viber = "NA";
+                injectedSystem.instagram = "NA";
+                injectedSystem.facebook = "NA";
+                injectedSystem.gmail = "NA";
+                injectedSystem.outlook = "NA";
+                injectedSystem.airmail = "NA";
+                injectedSystem.ymail = "NA";
+                injectedSystem.snapchat = "NA";
+                injectedSystem.reddit = "NA";
+                injectedSystem.googleplus = "NA";
+                injectedSystem.linkedin = "NA";
+                injectedSystem.slack = "NA";
+                injectedSystem.telegramXBadge = "NA";
+                injectedSystem.spark = "NA";
+                injectedSystem.ramFree = ramFree;
+                injectedSystem.ramUsed = ramUsed;
+                injectedSystem.ramAvailable = ramAvailable;
+            } else if (type == "battery") {
+                injectedSystem.battery = batteryPercent;
+                injectedSystem.chargetext = (batteryCharging) ? "Charging" : "Not Charging";
+            } else if (type == "system") {
+                options.twentyfour = (twentyfourhour == "yes") ? true : false;
+                injectedSystem.deviceName = deviceName;
+                injectedSystem.systemVersion = systemVersion;
+            } else if (type == "alarm") {
+                injectedSystem.alarmDay = alarmDay;
+                injectedSystem.alarmString = alarmString;
+                injectedSystem.alarmHour = alarmHour;
+                injectedSystem.alarmMinute = alarmMinute;
+            } else if (type == "reminders") {
+
+            } else if (type == "events") {
+
+            } else if (type == "music") {
+                injectedMusic.isPlaying = isplaying;
+                injectedMusic.title = (title == "(null)") ? "" : title;
+                injectedMusic.artist = (artist == "(null)") ? "" : artist;
+                injectedMusic.album = (album == "(null)") ? "" : album;
+                setTimeout(function() {
+                    updateMusicElements();
+                }, 0);
+            }
+        }
+    </script>
+    <script type="text/javascript" src="LPP.js"></script>
+    <script type="text/javascript" src="js/setup.js"></script>
+    <script type="text/javascript" src="js/elements.js"></script>
+    <script type="text/javascript" src="js/mainLoop.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/SBChanges.js"></script>
+    <script type="text/javascript" src="js/loaded.js"></script>
+    <script type="text/javascript" src="js/colorify.js"></script>
+</body>
+
+</html>

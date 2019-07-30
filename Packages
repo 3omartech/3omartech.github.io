@@ -369,6 +369,21 @@ Description: Box Widget Content All you Want from widget
 Author: 3omartech
 Name: FullBox
 
+Package: com.3omartech.bari
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/07/bari-widget.html
+Filename: /BARi.deb
+Size: 39430
+MD5sum: bcb9eb8259d43523c58a3ba578c78b2e
+SHA256: b032e1fee1add671551b8b43270d192da9ad4c4b34733439bce1325d7f074965
+Section: Widgets
+Description: raplacement for stauts bar 
+Author: 3omartech
+Name: BARi
+
+
 
 
 
