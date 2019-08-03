@@ -411,19 +411,7 @@ Description: Widget
 Author: 3omartech
 Name: LightNight
 
-Package: com.3omartech.oldtime
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Homepage: https://3omar-tech.blogspot.com/2019/08/oldtime-widget.html
-Filename: /OldTime.deb
-Size: 249812
-MD5sum: 94db3150505304277701b330f4d5d0e2
-SHA256: 47dac9fa9a3a3c45032ee12777bca956996a7959d050eb18e56ea3015099d239
-Section: Widgets
-Description: Widget 
-Author: 3omartech
-Name: OldTime
+
 
 
 
