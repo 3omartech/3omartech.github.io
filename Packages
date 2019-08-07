@@ -425,6 +425,35 @@ Description: Widget
 Author: 3omartech
 Name: OldTime
 
+Package: com.3omartech.bluelake
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/blue-lake-widget.html
+Filename: /BlueLake.deb
+Size: 287156
+MD5sum: b24de18cdc495c05d1d084ddc87c04b1
+SHA256: 0bdb7facdce4faa15435073a8dd0ca7626c7466c0ccb613d528235e158ce6ce0
+Section: Widgets
+Description: Widget 
+Author: 3omartech
+Name: BlueLake
+
+Package: com.3omartech.oldletter
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/oldletter-widget.html
+Filename: /OldLetter.deb
+Size: 527940
+MD5sum: a0cc76e2c27d31f73e0975df284df914
+SHA256: ed03aea3ead4c11c6cf4257ebe0b748d1f904720e1a714998fb7c5aef29de6ae
+Section: Widgets
+Description: Widget 
+Author: 3omartech
+Name: OldLetter
+
+
 
 
 
