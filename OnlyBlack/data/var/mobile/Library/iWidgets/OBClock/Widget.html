@@ -1,0 +1,36 @@
+<html>
+<head>
+  <style>
+  body {
+    margin:0;
+    padding:0;
+  }
+  .holder{
+    position: relative;
+    width: 210px;
+    height: 210px;
+  }
+  </style>
+</head>
+
+<body>
+
+<div class="holder"></div>
+
+<script type="text/javascript" src="js/analog.js"></script>
+<script type="text/javascript">
+var analog = Analog({
+    parent: document.querySelector('.holder'),
+    width: 200,
+    numbers: false,
+    longhands: true,
+    handendlength: 6,
+    secondColor: 'rgba(0,0,0,0.2)',
+    minuteColor: 'black',
+    hourColor: 'black'
+});
+</script>
+
+</body>
+</html>
+

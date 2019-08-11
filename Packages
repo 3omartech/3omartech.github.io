@@ -467,6 +467,20 @@ Description: a small theme content main icons only,made for little girls Especia
 Author: 3omartech
 Name: HelloKitty
 
+Package: com.3omartech.onlyblack
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/onlyblack-4-widget-in-1.html
+Filename: /OnlyBlack.deb
+Size: 145666
+MD5sum: 09a7ac92ce7fe73707ea84f523331ccd
+SHA256: d5f94dc00186d1357bea56e0619aede7f0e16f7fecab9eff1e64268f80386b63
+Section: Widgets
+Description: 4 Widget in 1 BLACK IN BLACK
+Author: 3omartech
+Name: OnlyBlack
+
 
 
 
