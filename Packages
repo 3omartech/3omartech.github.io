@@ -481,6 +481,20 @@ Description: 4 Widget in 1 BLACK IN BLACK
 Author: 3omartech
 Name: OnlyBlack
 
+Package: com.3omartech.goldencoffee
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/new-theme-tasting-golden-coffee-fun.html
+Filename: /GoldenCoffee.deb
+Size: 1828350
+MD5sum: 64bc9e526fffd6a2420fdf700c2ab13b
+SHA256: c749f429cbeb85e5cba6b04b36737a4cbdc892edff9691082ab005ff30a63dfe
+Section: Themes
+Description: tasting The Golden coffee fun
+Author: 3omartech
+Name: GoldenCoffee
+
 
 
 
