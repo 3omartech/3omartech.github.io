@@ -495,6 +495,21 @@ Description: tasting The Golden coffee fun
 Author: 3omartech
 Name: GoldenCoffee
 
+Package: com.3omartech.awesomegold
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/new-different-golden-theme-with-widget.html
+Filename: /AwesomeGold.deb
+Size: 2449736
+MD5sum: e61bd2c8878ac2cbf0d6d4e3fd69ad1b
+SHA256: a4b731bfe2c87921fdd83720e7213d6eaca2dfc068d9b3877da6ecd39abcae3e
+Section: Themes
+Description: Different golden Theme With Widget 
+Author: 3omartech
+Name: AwesomeGold
+
+
 
 
 
