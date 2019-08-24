@@ -1,0 +1,32 @@
+ckageInfo>
+    <bundleId>com.3omartech.test</bundleId>
+    <name>test.3omartech</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            test.
+        </description>
+        <description>
+		<![CDATA[<p><strong>test:</strong><br>
+		This Packet includes Lockscreen and <br>
+		Springboard widget. enjoy<br></p>]]>
+        </description>
+      </descriptions>
+    <backgrounds>
+	<image>nn.jpg</image>
+    </backgrounds>
+    <compatibility>
+        <miniOS>10.0</miniOS>
+        <maxiOS>12.4</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>Xeninfo</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>1.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
