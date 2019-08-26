@@ -565,6 +565,21 @@ Description: Shine Black & Gold Theme
 Author: 3omartech
 Name: GOB
 
+Package: com.3omartech.thinkdifferent
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/new-widget-thinkdifferent.html
+SupportLink: https://www.paypal.me/3omartech
+Filename: /ThinkDifferent.deb
+Size: 266238
+MD5sum: cfde58901fb468884a7cca7f71a46c62
+SHA256: 8707dfe38c0deba90788c455a17e7fdfac0096487b746c1c2187436b7b4ac082
+Section: Widgets
+Description: shiny apple logo widget
+Author: 3omartech
+Name: ThinkDifferent
+
 
 
 
