@@ -594,6 +594,19 @@ Description: Animated Widget ( SupportLink: https://www.paypal.me/3omartech )
 Author: 3omartech
 Name: RedRoze
 
+Package: com.3omartech.redonred
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: http://3omar-tech.blogspot.com/p/new-widget-redonred.html
+Filename: /RedOnRed.deb
+Size: 110596
+MD5sum: 1267bb0815f690c225cf6001c2c0f7d4
+SHA256: 066f5a5f38d9dbdc85fad59c6e5ed7980131ae85fc7b68d660b1162ead1b411d
+Section: Widgets
+Description: red widget (check more information option for screenshot)
+Author: 3omartech
+Name: RedOnRed
 
 
 
