@@ -608,6 +608,20 @@ Description: red widget (check more information option for screenshot)
 Author: 3omartech
 Name: RedOnRed
 
+Package: com.3omartech.isgolg
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/08/isgold-widget.html
+Filename: /iSGold.deb
+Size: 237424
+MD5sum: 8a8d8f1eb556c3683092bbf4d1a6277e
+SHA256: 80afff4839fb6030c11fe9228bc6d62c56e8fee7ed27513e7a622a18eec4e59b
+Section: Widgets
+Description: gold islamic widget
+Author: 3omartech
+Name: iSGold
+
 
 
 
