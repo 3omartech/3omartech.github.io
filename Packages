@@ -637,20 +637,6 @@ Description: A Simple Always On Display Widget
 Author: 3omartech
 Name: AlwaysOn
 
-Package: com.3omartech.g0ld0n
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Homepage: https://3omar-tech.blogspot.com/2019/09/g0ld0n-widget.html
-Filename: /G0LD0N.deb
-Size: 324084
-MD5sum: 24c3cb5cf0443c60aa5192ec9d1edd58
-SHA256: eb90c55b320fd4c9e08fc7976ec34f41a5d383ffbc444936c04d893c63b6c5bc
-Section: Widgets
-Description: A Beautiful Gold Widget
-Author: 3omartech
-Name: G0LD0N
-
 
 
 
