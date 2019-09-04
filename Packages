@@ -637,6 +637,20 @@ Description: A Simple Always On Display Widget
 Author: 3omartech
 Name: AlwaysOn
 
+Package: com.3omartech.a.gold
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/09/g0ld0n-widget.html
+Filename: /A.GOLD.deb
+Size: 312246
+MD5sum: 231d0f082546951e71016e991a9df670
+SHA256: 0ce374cc3d5b2fc31619cadc3a65d4ce09ce13a25d188ae48a820c9256cd7628
+Section: Widgets
+Description: A beautiful gold widget
+Author: 3omartech
+Name: A.GOLD
+
 
 
 
