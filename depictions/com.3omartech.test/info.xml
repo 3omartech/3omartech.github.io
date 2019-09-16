@@ -1,0 +1,24 @@
+<packageInfo>
+    <bundleId>com.3omartech.test</bundleId>
+    <name>test</name>
+    <version>0.0.1</version>
+    <descriptions>
+        <description>
+            a test tweak.
+        </description>
+        <description>
+		<![CDATA[<p><strong>A Test Tweak:</strong><br>
+        </description>
+      </descriptions>
+    <backgrounds>
+	<image>bg1.png</image>
+    </backgrounds>
+    <compatibility>
+        <miniOS>9.0</miniOS>
+        <maxiOS>12.1.2</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency></dependency>
+    </dependencies>
+</packageInfo>
