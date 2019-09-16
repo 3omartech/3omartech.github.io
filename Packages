@@ -704,6 +704,7 @@ MD5sum: d23d2e896dde0a5afdaa48d9e4684e29
 SHA256: dd09829d55a558f469605057eb4360b954283dbe6f32117de6913ec8605fbd70
 Section: Widgets
 Author: 3omartech
+Depiction: https://3omartech.github.io/depictions/?p=com.3omarteck.test
 Name: test
 
 
