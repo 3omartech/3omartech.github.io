@@ -17,8 +17,4 @@
         <miniOS>9.0</miniOS>
         <maxiOS>12.1.2</maxiOS>
     </compatibility>
-    <dependencies>
-        <dependency>XenHTML</dependency>
-        <dependency></dependency>
-    </dependencies>
 </packageInfo>
