@@ -693,6 +693,19 @@ Description: widget for natural wall
 Author: 3omartech
 Name: Garden.19
 
+Package: com.3omartech.test
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Homepage: https://3omar-tech.blogspot.com/2019/09/garden19-widget.html
+Filename: /test.deb
+Size: 634
+MD5sum: d23d2e896dde0a5afdaa48d9e4684e29
+SHA256: dd09829d55a558f469605057eb4360b954283dbe6f32117de6913ec8605fbd70
+Section: Widgets
+Author: 3omartech
+Name: tes
+
 
 
 
