@@ -717,7 +717,7 @@ MD5sum: 2cab7c7f152b0c54c9518a8b308f0491
 SHA1: 2e6564c4fb14457e3ca24c340b92170e650bfe02
 SHA256: 8fb8e4fd3ef2480fc69a0750264a9d39a5743854f0fdace7f2afdc907dc1db65
 Description: simple widget for sb and ls
-Filename: .//debs/com.3omartech.ss.19_0.0.1_iphoneos-arm.deb
+Filename: .//debs/com.3omartech.SS.19_0.0.1_iphoneos-arm.deb
 Name: SS.19
 Author: 3omartech
 Section: Widgets
