@@ -708,7 +708,18 @@ Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.test
 
 
-
+Package: com.3omartech.ss.19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Filename: /SS.19.deb
+Size: 1317122
+MD5sum: f6a278d0f1767a45c6b600b1c8d3749d
+SHA256: b834e047ddc02e7c43eb28579817dff1cadef4b6ec5dc02ef2e4255298e58b64
+Section: Widgets
+Description: analoge clock and digital clock & date
+Author: 3omartech
+Name: SS.19
 
 
 
