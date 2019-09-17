@@ -708,6 +708,20 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.ss.19
 
+Package: com.3omartech.greenk19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1257856
+MD5sum: e13e8b2beec2e5ba03bf1bdaee947e20
+SHA256: c83e7f1f851b562b9a16e5abc26d4322360515d64291cb834a49f8c0907a809a
+Description: Green Kuba LS Widget
+Filename: .//com.3omartech.greenk19_0.0.1_iphoneos-arm.deb
+Name: GreenK19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.greenk19
+
 
 
 
