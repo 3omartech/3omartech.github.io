@@ -713,11 +713,11 @@ Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: 3omartech <3omartech@mail.ru>
 Size: 1317122
-MD5sum: 2cab7c7f152b0c54c9518a8b308f0491
-SHA1: 2e6564c4fb14457e3ca24c340b92170e650bfe02
-SHA256: 8fb8e4fd3ef2480fc69a0750264a9d39a5743854f0fdace7f2afdc907dc1db65
+MD5sum: 34d2d3199c5196b19d0016100d3127fb
+SHA1: c50ef3ea4d8a85b0953070b88477e2ac3f40f782
+SHA256: 330048fd5296d3e37d1c7f6fbc5cb19f921c6a35c41a076f1d6ffb61445b1cb9
 Description: simple widget for sb and ls
-Filename: .//debs/com.3omartech.SS.19_0.0.1_iphoneos-arm.deb
+Filename: .//debs/SS.19
 Name: SS.19
 Author: 3omartech
 Section: Widgets
