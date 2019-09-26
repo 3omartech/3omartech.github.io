@@ -764,6 +764,33 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.eleganty
 
+Package: com.3omartech.wea019
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 106772
+MD5sum: 11827eddc265334afbdee46358a341ca
+SHA256: 97b57404a22af5e14854590e016d30ee77c1029ca426038709743a26c4d33385
+Description: widget for colors lovers
+Filename: .//com.3omartech.wea019_0.0.1_iphoneos-arm.deb
+Name: Wea019
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.wea019
+
+Package: com.3omartech.g0b019
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 349046
+MD5sum: 4e97e21347f2a387642ec2ab32be69b6
+SHA256: 56873581429e2e7bd1097178bae8a5d774aa84d27bcb55c44b76a70b01aeff19
+Description: Hot Goldan Widget
+Filename: .//com.3omartech.g0b019_0.0.1_iphoneos-arm.deb
+Name: G0B019
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.g0b019
 
 
 
