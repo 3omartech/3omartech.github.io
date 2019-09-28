@@ -792,19 +792,6 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.g0b019
 
-Package: com.3omartech.sbl019
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Size: 163150
-MD5sum: c1eeca98a07371ee0784a920172abff1
-SHA256: 50bbd17ef2bdb8d2e62cbb16b9f48b00c0d6004510c4912be583350b6821c169
-Description: blue and white widget
-Filename: .//com.3omartech.sbl019_0.0.1_iphoneos-arm.deb
-Name: SBL019
-Author: 3omartech
-Section: Widgets
-Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sbl019
 
 
 
