@@ -806,6 +806,33 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sbl019
 
+Package: com.3omartech.ava19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 658538
+MD5sum: 015e833331ce9d0e6575c51e5e324a53
+SHA256: d925b7bea1df5d9a72ea588b004bedb217b2e100f5dee86771bcae705bf5e3c0
+Description: AVATAR Widget for LS And SB
+Filename: .//com.3omartech.ava19_0.0.1_iphoneos-arm.deb
+Name: AVA19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.ava19
+
+Package: com.3omartech.bsilver19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 62268
+MD5sum: 7956c41ecd507346de9601bab227b0b1
+SHA256: a29f695b6f80184604fa1869e294c87f41135fab34a4b10516bb44f88da55dd1
+Description: Black And Silver Widget for LS And SB
+Filename: .//com.3omartech.bsilver19_0.0.1_iphoneos-arm.deb
+Name: BSilver19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.bsilver19
 
 
 
