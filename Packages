@@ -834,6 +834,20 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.bsilver19
 
+Package: com.3omartech.sbxbar
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 39972
+MD5sum: e679a47bc66bbc91ed3d1e6909b5a709
+SHA256: 0ed3959df1039e3d9fd3571640793a613f2ccebf0fd810f57281a90cae2fdaa9
+Description: Status Bar For iPX
+Filename: .//com.3omartech.sbxbar_0.0.1_iphoneos-arm.deb
+Name: SBXBar
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sbxbar
+
 
 
 
