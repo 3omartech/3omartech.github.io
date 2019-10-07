@@ -848,6 +848,34 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sbxbar
 
+Package: com.3omartech.ray19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 343912
+MD5sum: 09315d4a6aab5c8f84e8e716b5922d14
+SHA256: fafafb49eb8724bcf42857fc9b33311212ce1a35573b23c887d4e30d6bfc3d29
+Description: clored widget for ls and sb
+Filename: .//com.3omartech.ray19_0.0.1_iphoneos-arm.deb
+Name: Ray19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.ray19
+
+Package: com.3omartech.woody19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1171660
+MD5sum: 275d96b1192f894753b8de6a714d0372
+SHA256: f5d005b17120ef8a6962c96682110d20801d725f57d31c5af1a82f9a4f074d18
+Description: natural wood widget for ls and sb
+Filename: .//com.3omartech.woody19_0.0.1_iphoneos-arm.deb
+Name: Woody19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.woody19
+
 
 
 
