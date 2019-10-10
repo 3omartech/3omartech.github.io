@@ -876,6 +876,20 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.woody19
 
+Package: com.3omartech.quba19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 279840
+MD5sum: 6d2509518b58ce758e4726c7cc097b21
+SHA256: c0a8f96dddb1735edadb06569fa8ee63cf87f47dfeaeab6446bc8396ecf3ce97
+Description: The Green Quba widget for ls and sb
+Filename: .//com.3omartech.quba19_0.0.1_iphoneos-arm.deb
+Name: Quba19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.quba19
+
 
 
 
