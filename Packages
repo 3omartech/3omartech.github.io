@@ -904,6 +904,19 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sahara19
 
+Package: com.3omartech.iwa19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 280676
+MD5sum: 05aee6af3c8051c1771955f804c2a57e
+SHA256: 70dda5bc7113e436790d872db271a4582316c4a620fcc890678aa03c4875fc72
+Description: Apple Watch Widget For LS And SB
+Filename: .//com.3omartech.iwa19_0.0.1_iphoneos-arm.deb
+Name: iWA19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.iwa19
 
 
 
