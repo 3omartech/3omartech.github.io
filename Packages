@@ -918,4 +918,17 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.iwa19
 
+Package: com.3omartech.digit19
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 605240
+MD5sum: 499538303e825ba712eb7fa9a6a323ff
+SHA256: a0e7c81eee67e9b8ac8486713fb15c56cad8395dcdba04d979cbb9ea28248da5
+Description: Digital Widget For LS And SB
+Filename: .//com.3omartech.digit19_0.0.2_iphoneos-arm.deb
+Name: Digit19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.digit19
 
