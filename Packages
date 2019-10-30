@@ -960,3 +960,31 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sbgb20
 
+Package: com.3omartech.silb19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 96710
+MD5sum: 988ea4dc70b720d8d7fe0edb3286df33
+SHA256: 1f9b4e18d444efa01e57e4087d8f7370909998e869d8e70fde1f411e1fe1e2a9
+Description: Widget For SB And LS
+Filename: .//com.3omartech.silb19_0.0.1_iphoneos-arm.deb
+Name: SilB19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.silb19
+
+Package: com.3omartech.neon19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 434540
+MD5sum: 86adbfa88262f507c21f616b1eb0c34f
+SHA256: 085ae9bec9c1d960d1e502abab2cee55b2135b12c535f4b7c1fdc733f2461524
+Description: Shining Colored Widget For SB And LS
+Filename: .//com.3omartech.neon19_0.0.1_iphoneos-arm.deb
+Name: Neon19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.neon19
+
