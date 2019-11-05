@@ -1,13 +1,13 @@
 <packageInfo>
-    <bundleId>com.3omartech.mlwatch</bundleId>
-    <name>MLwatch</name>
+    <bundleId>com.3omartech.mltwatch</bundleId>
+    <name>MLTWatch</name>
     <version>0.0.1</version>
     <descriptions>
         <description>
            DIGITAL widget for XEN HTML.
         </description>
         <description>
-		<![CDATA[<p><strong>ML Watch Widget</strong><br>
+		<![CDATA[<p><strong>MLT Watch Widget</strong><br>
 		widget for ls<br>
 		FREE widget. enjoy(created by LockPlusPro)<br></p>]]>
         </description>
