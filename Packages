@@ -1001,3 +1001,17 @@ Name: GoldenCircle
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.goldencircle
+
+Package: com.3omartech.mlwatch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1661776
+MD5sum: 91bec6690af9d908a908dbda281a96b4
+SHA256: 54bfe45d6bd8ada7cbb46c6e5a7c0749d8e698d111ce5b4dbffe21d3dea3b529
+Description: DIGITAL Watch Widget For LS
+Filename: .//com.3omartech.mlwatch_0.0.1_iphoneos-arm.deb
+Name: MLwatch
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.mlwatch
