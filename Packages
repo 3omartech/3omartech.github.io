@@ -1030,3 +1030,17 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.blr19b
 
+Package: com.3omartech.gla19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 440386
+MD5sum: 55d966f0fb79aa7f4bb325c9916ae7e4
+SHA256: 35c2f963753c948c149994a04b5a244ec90b9826312ab6ad48858309a994f00d
+Description: golden pure widget and wall
+Filename: .//com.3omartech.gla19_0.0.1_iphoneos-arm.deb
+Name: GLA19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.gla19
+
