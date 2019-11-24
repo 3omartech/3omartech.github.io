@@ -1044,3 +1044,16 @@ Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.gla19
 
+Package: com.3omartech.girwatch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 2371064
+MD5sum: d84abeccf1d482a8b3b6b867abc55f8c
+SHA256: 67901110dc9fae512364608424ffb098735b66982d54f4a37fef4ac85c86e9b6
+Description: Clock And Wall For Girls
+Filename: .//com.3omartech.girwatch_0.0.1_iphoneos-arm.deb
+Name: GIRWATCH
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.girwatch
