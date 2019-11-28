@@ -1057,3 +1057,17 @@ Name: GIRWATCH
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.girwatch
+
+Package: com.3omartech.rrg19
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 749700
+MD5sum: 844313fa930442b3a66b88f5b89443a2
+SHA256: 74f5b1e6c3861e75571b9a6d7a07204ea2bf12e20b280b9515683c0f9fb60f44
+Description: RED AND GOLD Widget For SB and LS
+Filename: .//com.3omartech.rrg19_0.0.1_iphoneos-arm.deb
+Name: RRG19
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.rrg19
