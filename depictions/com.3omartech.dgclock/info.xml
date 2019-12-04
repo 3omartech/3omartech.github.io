@@ -17,7 +17,7 @@
     </backgrounds>
     <compatibility>
         <miniOS>10.0</miniOS>
-        <maxiOS>12.4</maxiOS>
+        <maxiOS>13.2.3</maxiOS>
     </compatibility>
     <dependencies>
         <dependency>XenHTML</dependency>
