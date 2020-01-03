@@ -1155,3 +1155,17 @@ Name: TimeToPray
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.ttpr
+
+Package: com.3omartech.redd20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 227846
+MD5sum: 882abfebdb73625d96fcd41fe0aca8bb
+SHA256: 2d75d450789ac8918ab282ca898facd66b6ab1967edfb2323c9aa9f9b3876c38
+Description: HOT RED and BLACK Widget
+Filename: .//com.3omartech.redd20_0.0.1_iphoneos-arm.deb
+Name: REDD20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.redd20
