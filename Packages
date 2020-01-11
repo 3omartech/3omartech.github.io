@@ -1183,3 +1183,17 @@ Name: BRI20
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.bri20
+
+Package: com.3omartech.rainy20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 4537154
+MD5sum: 5a37f45d31c0266287a460bbf525e1ee
+SHA256: 358ac7e0d15711caf1638317ca4875eac97d028791f35b388d009f52c2b456ac
+Description: Full Animated Widget
+Filename: .//com.3omartech.rainy20_0.0.1_iphoneos-arm.deb
+Name: Rany20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.rainy20
