@@ -1211,3 +1211,17 @@ Name: Braw22
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.braw22
+
+Package: com.3omartech.cityn
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 503720
+MD5sum: fa888cac3142515eceb7de1f9ebd94b9
+SHA256: 8f8a3f8749178e14daade2432e2a40233317cebd95ef435e02c8c6f82122f69d
+Description: Black And White half Wallpaper Widget
+Filename: .//com.3omartech.cityn_0.0.1_iphoneos-arm.deb
+Name: CityN
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.cityn
