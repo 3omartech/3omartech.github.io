@@ -1239,3 +1239,17 @@ Name: Gra20
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.gra20
+
+Package: com.3omartech.liong
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 667086
+MD5sum: 5cf0a1178934b02f1cc18e7c95bb7983
+SHA256: b9ddc1a79432bd5dd4ad7fae16e40dd87756c2b80ab34306b0895ade8dfd5b22
+Description: GOLD and Black Widget
+Filename: .//com.3omartech.liong_0.0.1_iphoneos-arm.deb
+Name: LionG
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.liong
