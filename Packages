@@ -1253,3 +1253,17 @@ Name: LionG
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.liong
+
+Package: com.3omartech.br0g20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1811318
+MD5sum: f0b4952399d5eb8a3e19416b4eab10d3
+SHA256: 24e209abd27d6f695acdf717226f4b3705aac10c55b20f085858ccd5e14615af
+Description: Full Brown And Gold Animatade Widget
+Filename: .//com.3omartech.br0g20_0.0.1_iphoneos-arm.deb
+Name: BR0G20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.br0g20
