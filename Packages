@@ -1295,3 +1295,17 @@ Name: GoldBoss
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.goldboss
+
+Package: com.3omartech.sut20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 890854
+MD5sum: 926cc07d456f36f74aad9ca914ce37bb
+SHA256: 0a2296f5950c03e6ae246e71cfa04a0f84dc554d703a84ea713925935cc479ea
+Description: Gray Widget With Awesome img
+Filename: .//com.3omartech.sut20_0.0.1_iphoneos-arm.deb
+Name: SUT20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sut20
