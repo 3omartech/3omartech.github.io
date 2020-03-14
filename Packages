@@ -1323,3 +1323,17 @@ Name: BlueStyle
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.bluestyle
+
+Package: com.3omartech.cwi20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 81812
+MD5sum: 3a0257c2e2404cef55ec52cc2d6cd318
+SHA256: 5cde3f74223745828e65528e29b1a8fcb4f2cd2fabe51536883661220bde97c5
+Description: Simple clear widget
+Filename: .//com.3omartech.cwi20_0.0.1_iphoneos-arm.deb
+Name: CleanWidget20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.cwi20
