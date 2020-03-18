@@ -1337,3 +1337,17 @@ Name: CleanWidget20
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.cwi20
+
+Package: com.3omartech.dsern
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 406692
+MD5sum: de2df0f4fde75e075fb47154626f4881
+SHA256: 2d33f6ba3ea502dee1189bc93221550f25c1da3676dedaa3923a18d2ecb9c0d4
+Description: Night desert view widget
+Filename: .//com.3omartech.dsern_0.0.1_iphoneos-arm.deb
+Name: DesertNights
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.dsern
