@@ -1365,3 +1365,17 @@ Name: Simply
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.simply
+
+Package: com.3omartech.dng20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 272132
+MD5sum: 4cd48e42ca62e159d100b3f9d1183b5c
+SHA256: 28a6b99357e84c7e24a7957a94dcd12d8ee2440bee1ce88acf3e64d30b63c199
+Description: a simple widget
+Filename: .//com.3omartech.dng20_0.0.1_iphoneos-arm.deb
+Name: DNG20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.dng20
