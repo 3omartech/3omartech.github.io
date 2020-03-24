@@ -1,0 +1,43 @@
+<!-------------------------------------------------- 3omartech ------------------------------------------------>
+
+<html><head>
+<link rel="stylesheet" href="Style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="Scripts/location.js"></script>
+<script type="text/javascript" src="Scripts/Clock.js"></script>
+<script type="text/javascript" src="Scripts/WordClock.js"></script>
+<script type="text/javascript" src="Scripts/Weekdays.js"></script>
+<script type="text/javascript" src="Scripts/Calendar.js"></script>
+<script type="text/javascript" src="Scripts/weather.js"></script>
+<script type="text/javascript" charset="utf-8" src="Config.js"/></script>
+</head>
+
+<body onLoad="onLoad()">
+
+<div id="hours"> <span id="minutes"> <span id="minutesunit">
+        <script language="JavaScript">updateClock(); setInterval('updateClock()', 1000 )</script>
+</div>
+
+<div id="clock"> <span id="ampm">
+	<script language="JavaScript">updateClock1(); setInterval('updateClock1()', 1000 )</script>
+</div>
+
+<div id="month"> <span id="date">
+       <script language="JavaScript">calendarDate(); setInterval('calendarDate()', 1000 )</script>
+</div>
+
+<script type="text/javascript">
+	var todaydate=new Date(); 
+	var curmonth=todaydate.getMonth()+1; 
+	var curyear=todaydate.getFullYear();
+	document.write(buildCal(curmonth ,curyear, "main", "month", "daysofweek", "days"));
+</script>
+
+<div id="CalendarWidget" style="position:relative; top:160px; left:0px; width:280px; height:100px; text-align:center; z-index:100;"></div>
+
+<div id="Weather">
+<a id="city"></a><a id="temp"></a>
+</div>
+
+<div id="desc" style="display:none;"></div>
+
+</body></html>

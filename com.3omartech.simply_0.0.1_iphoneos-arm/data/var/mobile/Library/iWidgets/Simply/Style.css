@@ -1,0 +1,92 @@
+<!------------------------------------------------ 3omartech ---------------------------------------------------------------->
+
+body {
+	margin:0;
+       top:0;
+}
+
+#clock{
+	position:absolute; top:0px; left:0px; width:320px; height:100px; text-align:center; z-index:60;
+	font-weight:900; 
+	font-size:62px;
+	color: #faebd7;
+	text-shadow: 0px 1px 1px White;
+	font-family: Helvetica;
+       opacity: 0.6;
+}
+#ampm{color:aeaeae;}
+
+#hours{
+       position:absolute; top:33px; left:0px; width:280px; height:100px; text-align:center; z-index:99;
+	font-family: Helvetica;
+	font-weight: 900;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px #3090c7;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+#minutes{color: #e5e4e2;}
+#minutesunit{color:white;}
+
+
+.main {
+	text-align:center;
+	color: white;
+	font-family:Helvetica;
+	font-size:10px;
+	font-weight: 900;
+	padding:2px 2px 2px 2px;
+	background-color:transparent;
+}
+#main td {
+	font-size:10px;
+	border:1px solid #98bf21;
+	padding:2px 2px 2px 2px;
+}
+#main tr {
+	font-size:10px;
+}
+#daysofweek {
+       position:relative; top:52px; left:32px; width:280px; height:100px; text-align:center; z-index:100;
+	text-shadow: 0px 1px 1px black;
+	color: white;
+	font-size: 14px;
+	font-weight: 100;
+	font-family:Helvetica;
+	padding: 0 3px;
+}
+#today{
+       position:relative; top:52px; left:32px; width:280px; height:100px; text-align:center; z-index:100;
+	text-shadow: 0px 0px 1px white;
+	color: #c2b280;
+	font-family:Helvetica;
+	font-size: 17px;
+	font-weight: 900;
+	padding: 0 3px;
+}
+#trans2{-webkit-transform: translate(30px,10px);}
+.month{display:none;}
+.year{display:none;}
+
+
+#month{
+	position:absolute; top:85px; left:0px; width:280px; height:100px; text-align:left; z-index:70;
+	font-weight:900; 
+	font-size:13px;
+	color: #f7e7ce;
+	text-shadow: 0px 1px 1px black;
+	font-family: Helvetica;
+	text-transform: uppercase;
+}
+#date{color:white;}
+
+
+#Weather{
+	position:absolute;top:85px; left:0px; text-align:right; width:280px; height:100px; z-index:100;
+	font-size: 13px;
+	font-weight:900;
+	text-shadow: 0px 1px 1px black;
+	font-family: Helvetica;
+}
+#city{color:aeaeae;}
+#temp{color:white;}

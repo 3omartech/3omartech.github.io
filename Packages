@@ -1351,3 +1351,17 @@ Name: DesertNights
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.dsern
+
+Package: com.3omartech.simply
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 6910
+MD5sum: 72e1ff5d86780bb3d317e9dc1c080d0d
+SHA256: 8fc6aa80247d28a33bff5fa192ff46cff4ae9363642e3bca016a7a4a30862507
+Description: a simple widget
+Filename: .//com.3omartech.simply_0.0.1_iphoneos-arm.deb
+Name: Simply
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.simply
