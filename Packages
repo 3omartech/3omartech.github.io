@@ -1421,3 +1421,17 @@ Name: QubaGold
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.qugo
+
+Package: com.3omartech.spli20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 65298
+MD5sum: 3e6ecf27ca09c617ada109749574dac6
+SHA256: 5f20cbb6d6a531b260856c89e0ce1cb9c2e94f2ba6e462efa178d70f238390c9
+Description: A Simple Widget
+Filename: .//com.3omartech.spli20_0.0.1_iphoneos-arm.deb
+Name: Simplfy
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.spli20
