@@ -1435,3 +1435,18 @@ Name: Simplfy
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.spli20
+
+
+Package: com.3omartech.ra20m
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1471884
+MD5sum: 0a995a3652520aae10ed1d7f79ce80b6
+SHA256: ae1c4d0e91d1ea522eafa0696eb366c4ae4c4a8e851f78683aa9d391ea401428
+Description: Ramadan Mobarak
+Filename: .//com.3omartech.ra20m_0.0.1_iphoneos-arm.deb
+Name: Ramadan
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.ra20m
