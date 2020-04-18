@@ -1450,3 +1450,17 @@ Name: Ramadan
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.ra20m
+
+Package: com.3omartech.rama2
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 589198
+MD5sum: 5bb01d74c1d64a72744fc6012099e5e6
+SHA256: d0ce3072b913016fd9a30e859cbdae6c7c297c0cdc5abff330a4578ad6ec0d53
+Description: Ramadan2 Mobarak
+Filename: .//com.3omartech.rama2_0.0.1_iphoneos-arm.deb
+Name: Ramadan2
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.rama2
