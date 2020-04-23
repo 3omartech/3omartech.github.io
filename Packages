@@ -1492,3 +1492,17 @@ Name: RaMobarak
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.rambb
+
+Package: com.3omartech.moonl
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 101598
+MD5sum: eb5791ab2663584247a6639b2c67156b
+SHA256: cc81392d42f9abff5ac02030c21509d47f288e58f30530da671b34025b0a5702
+Description: Big Gold widget
+Filename: .//com.3omartech.moonl_0.0.1_iphoneos-arm.deb
+Name: MoonlitNight
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.moonl
