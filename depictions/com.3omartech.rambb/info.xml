@@ -1,0 +1,32 @@
+<packageInfo>
+    <bundleId>com.3omartech.rambb</bundleId>
+    <name>RaMobarak</name>
+    <version>0.0.1</version>
+    <descriptions>
+        <description>
+            widget for XEN HTML.
+        </description>
+        <description>
+		<![CDATA[<p><strong>3omartech</strong><br>
+		 Ramadan Widget and wall<br>
+		FREE widget. enjoy<br></p>]]>
+        </description>
+      </descriptions>
+    <backgrounds>
+	<image>bg1.png</image>
+    </backgrounds>
+    <compatibility>
+        <miniOS>10.0</miniOS>
+        <maxiOS>13.3</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>Xeninfo</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>0.0.1</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
