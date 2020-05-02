@@ -1506,3 +1506,17 @@ Name: MoonlitNight
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.moonl
+
+Package: com.3omartech.raminb
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 5205964
+MD5sum: 4dc5f751bde2e89ce2a40a7622d54fa3
+SHA256: 26b2ca86909fd67716f741b78d6e839abda0ff0fb28c02abe840dc1e629284ee
+Description: Awesome Ramadan widget
+Filename: .//com.3omartech.raminb_0.0.1_iphoneos-arm.deb
+Name: RAMADANinBlue
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.raminb
