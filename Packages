@@ -1520,17 +1520,3 @@ Name: RAMADANinBlue
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.raminb
-
-Package: com.3omartech.bluedbox1
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: 3omartech <3omartech@mail.ru>
-Size: 82194
-MD5sum: d8ff38b0a05074a982a8a1ad6f10c637
-SHA256: 4919e540e2cf92bf9f0417d2d51a680832415773f27062f52bac2368b3731127
-Description: blue box widget
-Filename: .//com.3omartech.bluedbox1_0.0.1_iphoneos-arm.deb
-Name: BlueDbox1
-Author: 3omartech
-Section: Widgets
-Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.bluedbox1
