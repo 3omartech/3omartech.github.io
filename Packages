@@ -1548,3 +1548,17 @@ Name: SunSt
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.sunst
+
+Package: com.3omartech.pura
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 262612
+MD5sum: f9128d82005726db2676cf2aaa4694de
+SHA256: 4cfba65ed9cf67f678d0f85ff678110c16b178c479f30c229e8cd6f7ee3035f7
+Description: pure lovely widget
+Filename: .//com.3omartech.pura_0.0.1_iphoneos-arm.deb
+Name: Pura
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.pura
