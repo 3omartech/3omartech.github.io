@@ -1562,3 +1562,17 @@ Name: Pura
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.pura
+
+Package: com.3omartech.eyes
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 722814
+MD5sum: d7f915810572bd372527f002dd5fc313
+SHA256: 35b2b778d7515b0cdbd64f87e2dddbd2d409d3fcba6529d076e4b202a550bb92
+Description: widget
+Filename: .//com.3omartech.eyes_0.0.1_iphoneos-arm.deb
+Name: Eyes
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.eyes
