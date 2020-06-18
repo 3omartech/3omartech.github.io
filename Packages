@@ -1576,3 +1576,17 @@ Name: Eyes
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.eyes
+
+Package: com.3omartech.g020g
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 3474820
+MD5sum: 62bdd0578bd45ef59cf274138e74cef7
+SHA256: a3f12262709fd6186c01e2aba3c399db13d79b97d13835cdafc0a88abdb4902a
+Description: Golden Style Widget
+Filename: .//com.3omartech.g020g_0.0.1_iphoneos-arm.deb
+Name: G0ldBack20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.g020g
