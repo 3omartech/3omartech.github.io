@@ -1590,3 +1590,17 @@ Name: G0ldBack20
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.g020g
+
+Package: com.3omartech.grsimp
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 180070
+MD5sum: 4cd51fdf85dd017378ae0d4620d5cff6
+SHA256: eb1bcd9925debe9e5fddc0490f3c24ebeb8aae044f4b140e383133822c8e0434
+Description: arabic Gray Widget with wall
+Filename: .//com.3omartech.grsimp_0.0.1_iphoneos-arm.deb
+Name: GrSimp
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.grsimp
