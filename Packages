@@ -1633,3 +1633,17 @@ Name: LSR22
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.lsr22
+
+Package: com.3omartech.nll20
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1484964
+MD5sum: 07753520c17ad8869e189c01648514e9
+SHA256: 2080472be59957a1b5af4165bcef972118b56802c4b1640d6170bf95fa495c31
+Description: simple Widget 
+Filename: .//com.3omartech.nll20_0.0.1_iphoneos-arm.deb
+Name: nll20
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.nll20
