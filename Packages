@@ -1647,3 +1647,17 @@ Name: nll20
 Author: 3omartech
 Section: Widgets
 Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.nll20
+
+Package: com.3omartech.browg1
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 3omartech <3omartech@mail.ru>
+Size: 1500326
+MD5sum: b14dd8107e1707c43bea59a012ace19e
+SHA256: a39a81e39fde8a59720233b5fac6e121bf6947ca4367b0f6c6e537c938750a4f
+Description: a nice Widget 
+Filename: .//com.3omartech.browg1_0.0.1_iphoneos-arm.deb
+Name: BrowG1
+Author: 3omartech
+Section: Widgets
+Depiction: https://3omartech.github.io/depictions/?p=com.3omartech.browg1
